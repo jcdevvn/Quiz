@@ -1,0 +1,1365 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <script type="module" src="/@vite/client"></script>
+
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Đấu Trường Tri Thức – Chinh Phục Cơ Thể Người (KHTN 8) - Cô Lê Thủy AI</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    body {
+      font-family: 'Be Vietnam Pro', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+    }
+  </style>
+<script src="/_aistudio-iframe.js?v=1f94f900"></script>
+  <style>
+    #jdev-splash {
+      position: fixed; inset: 0; z-index: 2147483647;
+      display: flex; align-items: center; justify-content: center;
+      padding: 24px; background: rgba(2, 6, 23, 0.94);
+      backdrop-filter: blur(6px); -webkit-backdrop-filter: blur(6px);
+      cursor: wait; user-select: none; -webkit-user-select: none;
+      transition: opacity .25s ease;
+    }
+    #jdev-splash.jdev-out { opacity: 0; }
+    #jdev-splash .jdev-card {
+      width: 100%; max-width: 360px; text-align: center;
+      padding: 36px 28px 28px; border-radius: 22px;
+      background: #0f172a; border: 1px solid rgba(34, 211, 238, .45);
+      box-shadow: 0 0 0 6px rgba(34, 211, 238, .08), 0 24px 70px rgba(6, 182, 212, .28);
+      animation: jdev-pop .45s cubic-bezier(.2, 1.3, .4, 1) both, jdev-glow 1.2s ease-in-out .45s infinite alternate;
+    }
+    #jdev-splash .jdev-by { font-size: 15px; font-weight: 500; color: #94a3b8; letter-spacing: .02em; }
+    #jdev-splash .jdev-name {
+      margin: 0; font-size: 30px; line-height: 1.25; font-weight: 900; color: #67e8f9;
+      text-shadow: 0 0 28px rgba(34, 211, 238, .55);
+    }
+    #jdev-splash .jdev-sub { font-size: 17px; font-weight: 700; color: #f1f5f9; }
+    #jdev-splash .jdev-bar { margin-top: 26px; height: 5px; border-radius: 99px; background: #1e293b; overflow: hidden; }
+    #jdev-splash .jdev-bar i {
+      display: block; height: 100%; width: 100%; border-radius: 99px; background: #22d3ee;
+      transform-origin: left center; animation: jdev-drain 3s linear forwards;
+    }
+    @keyframes jdev-pop { from { opacity: 0; transform: scale(.82) translateY(14px); } to { opacity: 1; transform: none; } }
+    @keyframes jdev-glow { from { box-shadow: 0 0 0 6px rgba(34,211,238,.06), 0 24px 70px rgba(6,182,212,.2); } to { box-shadow: 0 0 0 10px rgba(34,211,238,.14), 0 24px 90px rgba(6,182,212,.45); } }
+    @keyframes jdev-drain { from { transform: scaleX(1); } to { transform: scaleX(0); } }
+    @media (prefers-reduced-motion: reduce) {
+      #jdev-splash .jdev-card { animation: none; }
+    }
+  </style>
+</head>
+<body class="bg-slate-950 text-slate-100 min-h-screen selection:bg-cyan-500/30 selection:text-cyan-200">
+  <div id="jdev-splash" role="alertdialog" aria-modal="true" aria-label="Xuất web bởi Jdev">
+    <div class="jdev-card">
+            <div class="jdev-name">Xuất web bởi Jdev</div>
+      <div class="jdev-bar"><i></i></div>
+    </div>
+  </div>
+  <script>
+    (function () {
+      var splash = document.getElementById('jdev-splash');
+      var block = function (e) { e.preventDefault(); e.stopPropagation(); };
+      var evs = ['keydown', 'keyup', 'keypress', 'wheel', 'touchmove', 'contextmenu'];
+      evs.forEach(function (ev) { window.addEventListener(ev, block, { capture: true, passive: false }); });
+      document.documentElement.style.overflow = 'hidden';
+      setTimeout(function () { splash.classList.add('jdev-out'); }, 2750);
+      setTimeout(function () {
+        evs.forEach(function (ev) { window.removeEventListener(ev, block, { capture: true }); });
+        document.documentElement.style.overflow = '';
+        splash.remove();
+      }, 3000);
+    })();
+  </script>
+
+  <div id="app" class="flex flex-col min-h-screen"></div>
+
+  <script>
+    // Embedded question bank (31 questions - 40 scoring items - 0.25 pts each = 10.00 pts total)
+    const DEFAULT_QUESTIONS = [
+      // DẠNG 1: TRẮC NGHIỆM 4 LỰA CHỌN (18 CÂU - 0.25Đ/CÂU = 4.50Đ)
+      {
+        id: 1,
+        lessonId: "bai_30",
+        lessonName: "Bài 30: Khái quát về cơ thể người",
+        type: "mcq",
+        question: "Cơ thể người được bao bọc bởi lớp da và phân chia thành các phần chính nào sau đây?",
+        options: [
+          { key: "A", text: "Đầu, thân và các chi (tay, chân)" },
+          { key: "B", text: "Đầu, cổ, ngực và bụng" },
+          { key: "C", text: "Đầu, ngực, bụng và tứ chi" },
+          { key: "D", text: "Hộp sọ, lồng ngực và khoang bụng" }
+        ],
+        correctAnswer: "A",
+        points: 0.25,
+        explanation: "Toàn bộ cơ thể người được bao bọc bởi da, chia làm 3 phần: đầu, thân (gồm lồng ngực và khoang bụng ngăn cách bởi cơ hoành) và các chi (tay, chân)."
+      },
+      {
+        id: 2,
+        lessonId: "bai_30",
+        lessonName: "Bài 30: Khái quát về cơ thể người",
+        type: "mcq",
+        question: "Trong cơ thể người, cơ quan nào đóng vai trò là ranh giới ngăn cách giữa khoang ngực và khoang bụng?",
+        options: [
+          { key: "A", text: "Phổi" },
+          { key: "B", text: "Cơ hoành" },
+          { key: "C", text: "Dạ dày" },
+          { key: "D", text: "Cơ liên sườn" }
+        ],
+        correctAnswer: "B",
+        points: 0.25,
+        explanation: "Cơ hoành là một tấm cơ vân dẹt ngăn cách khoang ngực ở phía trên và khoang bụng ở phía dưới, đồng thời đóng vai trò quan trọng trong việc hô hấp hít vào và thở ra."
+      },
+      {
+        id: 3,
+        lessonId: "bai_30",
+        lessonName: "Bài 30: Khái quát về cơ thể người",
+        type: "mcq",
+        question: "Hệ cơ quan nào có chức năng vận chuyển chất dinh dưỡng, khí oxygen đến từng tế bào và mang các chất thải, khí carbon dioxide đến cơ quan bài tiết?",
+        options: [
+          { key: "A", text: "Hệ hô hấp" },
+          { key: "B", text: "Hệ tiêu hóa" },
+          { key: "C", text: "Hệ tuần hoàn" },
+          { key: "D", text: "Hệ nội tiết" }
+        ],
+        correctAnswer: "C",
+        points: 0.25,
+        explanation: "Hệ tuần hoàn gồm tim và hệ mạch máu (động mạch, mao mạch, tĩnh mạch), có chức năng lưu chuyển máu đi khắp cơ thể để vận chuyển oxy, dinh dưỡng và thu gom chất thải chuyển đến cơ quan bài tiết."
+      },
+      {
+        id: 4,
+        lessonId: "bai_30",
+        lessonName: "Bài 30: Khái quát về cơ thể người",
+        type: "mcq",
+        question: "Khi học sinh chạy nhanh trong giờ Thể dục, nhịp tim đập nhanh hơn, hơi thở dồn dập và mồ hôi toát ra nhiều. Hiện tượng này chứng minh điều gì?",
+        options: [
+          { key: "A", text: "Các hệ cơ quan hoạt động hoàn toàn biệt lập, không liên quan đến nhau" },
+          { key: "B", text: "Cơ thể đang rơi vào trạng thái cạn kiệt năng lượng nguy hiểm" },
+          { key: "C", text: "Các hệ cơ quan phối hợp hoạt động nhịp nhàng dưới sự điều hòa của hệ thần kinh và thể dịch" },
+          { key: "D", text: "Chỉ có hệ vận động và hệ tuần hoàn hoạt động trong khi các hệ khác tạm ngưng" }
+        ],
+        correctAnswer: "C",
+        points: 0.25,
+        explanation: "Khi vận động mạnh, hệ vận động đòi hỏi nhiều năng lượng, kích thích hệ tuần hoàn bơm máu nhanh hơn, hệ hô hấp lấy nhiều O2 hơn và tuyến mồ hôi tỏa nhiệt. Tất cả phối hợp thống nhất dưới sự điều hòa của hệ thần kinh và thể dịch."
+      },
+      {
+        id: 5,
+        lessonId: "bai_31",
+        lessonName: "Bài 31: Hệ vận động ở người",
+        type: "mcq",
+        question: "Ở người trưởng thành khỏe mạnh, bộ xương gồm khoảng bao nhiêu chiếc xương?",
+        options: [
+          { key: "A", text: "106 chiếc xương" },
+          { key: "B", text: "206 chiếc xương" },
+          { key: "C", text: "306 chiếc xương" },
+          { key: "D", text: "406 chiếc xương" }
+        ],
+        correctAnswer: "B",
+        points: 0.25,
+        explanation: "Bộ xương người trưởng thành gồm khoảng 206 xương với nhiều kích thước và hình dạng khác nhau, chia làm 3 phần: xương đầu, xương thân và xương chi."
+      },
+      {
+        id: 6,
+        lessonId: "bai_31",
+        lessonName: "Bài 31: Hệ vận động ở người",
+        type: "mcq",
+        question: "Khớp giữa các mảnh xương hộp sọ thuộc loại khớp xương nào sau đây?",
+        options: [
+          { key: "A", text: "Khớp bất động" },
+          { key: "B", text: "Khớp bán động" },
+          { key: "C", text: "Khớp động" },
+          { key: "D", text: "Khớp sụn dẻo" }
+        ],
+        correctAnswer: "A",
+        points: 0.25,
+        explanation: "Khớp giữa các mảnh xương sọ là khớp bất động, các mép xương có các đường răng cưa gắn kết chặt chẽ cố định với nhau để tạo thành hộp sọ vững chắc bảo vệ não bộ."
+      },
+      {
+        id: 7,
+        lessonId: "bai_31",
+        lessonName: "Bài 31: Hệ vận động ở người",
+        type: "mcq",
+        question: "Hiện tượng cơ bị co cứng đột ngột, không thể chủ động duỗi ra được, gây đau buốt dữ dội khi vận động hoặc bơi lội được gọi là gì?",
+        options: [
+          { key: "A", text: "Trật khớp xương" },
+          { key: "B", text: "Chuột rút (vọp bẻ)" },
+          { key: "C", text: "Bong gân" },
+          { key: "D", text: "Viêm khớp cấp tính" }
+        ],
+        correctAnswer: "B",
+        points: 0.25,
+        explanation: "Chuột rút là tình trạng cơ co thắt đột ngột, ngoài ý muốn và không giãn ra được. Nguyên nhân thường do cơ bị mỏi, cơ thể thiếu nước và chất điện giải hoặc không khởi động kỹ trước khi vận động mạnh."
+      },
+      {
+        id: 8,
+        lessonId: "bai_31",
+        lessonName: "Bài 31: Hệ vận động ở người",
+        type: "mcq",
+        question: "Để phòng tránh tật cong vẹo cột sống trong quá trình học tập, hành động nào sau đây là ĐÚNG ĐẮN?",
+        options: [
+          { key: "A", text: "Tựa sát ngực vào mép bàn và cúi gập cổ gần mặt bàn khi viết" },
+          { key: "B", text: "Luôn đeo cặp sách lệch hẳn sang một bên vai yêu thích" },
+          { key: "C", text: "Ngồi học ngay ngắn, giữ lưng thẳng tự nhiên, hai bàn chân đặt bằng phẳng trên sàn" },
+          { key: "D", text: "Ngồi nghiêng một bên và vắt chéo chân liên tục trong suốt buổi học" }
+        ],
+        correctAnswer: "C",
+        points: 0.25,
+        explanation: "Tư thế ngồi học chuẩn là lưng thẳng tự nhiên, không tì ngực vào cạnh bàn, khoảng cách mắt đến sách vở 25-30 cm, hai bàn chân đặt bằng phẳng trên sàn và đeo balo đều cả hai vai để tải trọng cân bằng."
+      },
+      {
+        id: 9,
+        lessonId: "bai_31",
+        lessonName: "Bài 31: Hệ vận động ở người",
+        type: "mcq",
+        question: "Khi sơ cứu ban đầu cho một người bạn không may bị gãy xương cẳng tay, nguyên tắc quan trọng hàng đầu là gì?",
+        options: [
+          { key: "A", text: "Nắn bóp mạnh và kéo thẳng cẳng tay nạn nhân ngay tại chỗ" },
+          { key: "B", text: "Dùng nẹp cố định tạm thời vị trí gãy bất động trước khi đưa đến cơ sở y tế" },
+          { key: "C", text: "Chườm túi nóng thật nóng lên vị trí gãy để kích thích lưu thông máu" },
+          { key: "D", text: "Cho nạn nhân tập cử động bàn tay xem xương có còn cảm giác không" }
+        ],
+        correctAnswer: "B",
+        points: 0.25,
+        explanation: "Nguyên tắc sơ cứu gãy xương là bất động đoạn xương gãy bằng nẹp chuyên dụng hoặc nẹp tạm thời (thước gỗ, thanh tre) để tránh đầu xương gãy đâm rách mạch máu, cơ và dây thần kinh xung quanh; tuyệt đối không nắn bóp."
+      },
+      {
+        id: 10,
+        lessonId: "bai_32",
+        lessonName: "Bài 32: Dinh dưỡng và tiêu hóa ở người",
+        type: "mcq",
+        question: "Trong nước bọt ở khoang miệng người có chứa loại enzyme tiêu hóa nào sau đây?",
+        options: [
+          { key: "A", text: "Enzyme Pepsin" },
+          { key: "B", text: "Enzyme Amylase" },
+          { key: "C", text: "Enzyme Lipase" },
+          { key: "D", text: "Enzyme Trypsin" }
+        ],
+        correctAnswer: "B",
+        points: 0.25,
+        explanation: "Nước bọt chứa enzyme amylase xúc tác quá trình thủy phân một phần tinh bột chín thành đường maltose có vị ngọt nhẹ."
+      },
+      {
+        id: 11,
+        lessonId: "bai_32",
+        lessonName: "Bài 32: Dinh dưỡng và tiêu hóa ở người",
+        type: "mcq",
+        question: "Bộ phận nào trong ống tiêu hóa là nơi diễn ra sự hấp thụ chất dinh dưỡng chủ yếu nhất của cơ thể?",
+        options: [
+          { key: "A", text: "Dạ dày" },
+          { key: "B", text: "Ruột già" },
+          { key: "C", text: "Ruột non" },
+          { key: "D", text: "Thực quản" }
+        ],
+        correctAnswer: "C",
+        points: 0.25,
+        explanation: "Ruột non dài và có bề mặt hấp thu cực lớn nhờ các nếp gấp, hàng triệu lông ruột và vi nhung mao cùng mạng mao mạch máu, mao mạch bạch huyết dày đặc, hấp thụ đến hơn 90% chất dinh dưỡng."
+      },
+      {
+        id: 12,
+        lessonId: "bai_32",
+        lessonName: "Bài 32: Dinh dưỡng và tiêu hóa ở người",
+        type: "mcq",
+        question: "Dịch mật do tế bào gan sản sinh và được dự trữ ở túi mật có vai trò chính nào sau đây trong tiêu hóa thức ăn?",
+        options: [
+          { key: "A", text: "Phân giải protein thành các phân tử amino acid nhỏ" },
+          { key: "B", text: "Nhũ tương hóa chất béo (lipid) thành các giọt nhỏ để enzyme lipase dễ phân giải" },
+          { key: "C", text: "Biến đổi tinh bột sống thành đường đơn glucose" },
+          { key: "D", text: "Tiết acid clohydric (HCl) để diệt vi khuẩn trong thức ăn" }
+        ],
+        correctAnswer: "B",
+        points: 0.25,
+        explanation: "Dịch mật không chứa enzyme tiêu hóa nhưng có các muối mật giúp nhũ tương hóa lipid (chất béo) thành các hạt mỡ nhỏ li ti, tạo điều kiện thuận lợi cho enzyme lipase của dịch tụy và dịch ruột phân giải."
+      },
+      {
+        id: 13,
+        lessonId: "bai_32",
+        lessonName: "Bài 32: Dinh dưỡng và tiêu hóa ở người",
+        type: "mcq",
+        question: "Nguyên nhân phổ biến hàng đầu gây ra bệnh viêm loét dạ dày – tá tràng ở người là gì?",
+        options: [
+          { key: "A", text: "Nhiễm vi khuẩn Helicobacter pylori (Hp), thói quen ăn uống thất thường và căng thẳng kéo dài" },
+          { key: "B", text: "Uống đủ 2 lít nước lọc mỗi ngày và ngủ đúng 8 tiếng" },
+          { key: "C", text: "Ăn nhiều rau củ quả tươi và tập thể dục buổi sáng" },
+          { key: "D", text: "Chế độ ăn nhạt và giảm lượng đường tinh luyện" }
+        ],
+        correctAnswer: "A",
+        points: 0.25,
+        explanation: "Vi khuẩn Hp (Helicobacter pylori), thói quen ăn uống bỏ bữa, thức khuya, stress căng thẳng tinh thần kéo dài, lạm dụng chất cay nóng hoặc thuốc giảm đau là những nguyên nhân chính gây tổn thương niêm mạc dạ dày."
+      },
+      {
+        id: 14,
+        lessonId: "bai_32",
+        lessonName: "Bài 32: Dinh dưỡng và tiêu hóa ở người",
+        type: "mcq",
+        question: "Học sinh A thường xuyên bỏ ăn rau xanh, chỉ ăn đồ chiên rán nhiều dầu mỡ và uống rất ít nước lọc. Tình trạng tiêu hóa học sinh A có nguy cơ cao gặp phải là gì?",
+        options: [
+          { key: "A", text: "Táo bón" },
+          { key: "B", text: "Tiêu chảy cấp tính" },
+          { key: "C", text: "Trào ngược dạ dày do dư kiềm" },
+          { key: "D", text: "Hạ đường huyết nghiêm trọng" }
+        ],
+        correctAnswer: "A",
+        points: 0.25,
+        explanation: "Rau xanh và trái cây cung cấp lượng chất xơ dồi dào giúp tăng thể tích phân và kích thích nhu động ruột già. Khi thiếu chất xơ và uống ít nước, phân trở nên khô cứng khó tống xuất ra ngoài, gây nên bệnh táo bón."
+      },
+      {
+        id: 15,
+        lessonId: "bai_33",
+        lessonName: "Bài 33: Máu và hệ tuần hoàn ở người",
+        type: "mcq",
+        question: "Loại tế bào máu nào ở người trưởng thành không có nhân, có hình đĩa lõm hai mặt và chứa huyết sắc tố hemoglobin?",
+        options: [
+          { key: "A", text: "Bạch cầu trung tính" },
+          { key: "B", text: "Hồng cầu" },
+          { key: "C", text: "Tiểu cầu" },
+          { key: "D", text: "Tế bào lympho" }
+        ],
+        correctAnswer: "B",
+        points: 0.25,
+        explanation: "Hồng cầu trưởng thành không có nhân, hình đĩa lõm hai mặt giúp tối ưu diện tích tiếp xúc để trao đổi khí, chứa hemoglobin có khả năng kết hợp thuận nghịch với O2 và CO2 để vận chuyển khí."
+      },
+      {
+        id: 16,
+        lessonId: "bai_33",
+        lessonName: "Bài 33: Máu và hệ tuần hoàn ở người",
+        type: "mcq",
+        question: "Khi mạch máu bị rách gây chảy máu, thành phần nào của máu đóng vai trò chủ chốt trong cơ chế đông máu để bịt kín vết thương?",
+        options: [
+          { key: "A", text: "Hồng cầu" },
+          { key: "B", text: "Bạch cầu mono" },
+          { key: "C", text: "Tiểu cầu" },
+          { key: "D", text: "Huyết tương đơn thuần" }
+        ],
+        correctAnswer: "C",
+        points: 0.25,
+        explanation: "Tiểu cầu vỡ ra giải phóng enzyme kết hợp với chất trong huyết tương biến fibrinogen thành mạng lưới sợi fibrin, giữ chặt các tế bào máu tạo thành khối máu đông bít kín miệng vết thương để cầm máu."
+      },
+      {
+        id: 17,
+        lessonId: "bai_33",
+        lessonName: "Bài 33: Máu và hệ tuần hoàn ở người",
+        type: "mcq",
+        question: "Trong hệ nhóm máu ABO, người có nhóm máu O sở hữu đặc điểm kháng nguyên và kháng thể như thế nào?",
+        options: [
+          { key: "A", text: "Màng hồng cầu không có cả kháng nguyên A và B; huyết tương có cả kháng thể α và β" },
+          { key: "B", text: "Màng hồng cầu có cả kháng nguyên A và B; huyết tương không có kháng thể nào" },
+          { key: "C", text: "Màng hồng cầu có kháng nguyên A; huyết tương có kháng thể β" },
+          { key: "D", text: "Màng hồng cầu có kháng nguyên B; huyết tương có kháng thể α" }
+        ],
+        correctAnswer: "A",
+        points: 0.25,
+        explanation: "Nhóm máu O có màng hồng cầu không mang kháng nguyên A hay B, trong huyết tương chứa cả hai loại kháng thể α và β. Nhờ không mang kháng nguyên A, B nên hồng cầu máu O không bị ngưng kết khi truyền cho các nhóm máu khác theo nguyên tắc an toàn."
+      },
+      {
+        id: 18,
+        lessonId: "bai_33",
+        lessonName: "Bài 33: Máu và hệ tuần hoàn ở người",
+        type: "mcq",
+        question: "Một người trưởng thành khi nghỉ ngơi có chỉ số huyết áp đo được là 155/95 mmHg. Nhận định nào sau đây là CHÍNH XÁC về tình trạng sức khỏe của người này?",
+        options: [
+          { key: "A", text: "Huyết áp hoàn toàn bình thường, khỏe mạnh lý tưởng" },
+          { key: "B", text: "Người này bị huyết áp thấp cần ăn mặn hơn ngay lập tức" },
+          { key: "C", text: "Người này có dấu hiệu tăng huyết áp (cao huyết áp) và cần được bác sĩ thăm khám" },
+          { key: "D", text: "Đây là tình trạng thiếu máu cục bộ bẩm sinh không đáng lo ngại" }
+        ],
+        correctAnswer: "C",
+        points: 0.25,
+        explanation: "Chỉ số huyết áp bình thường ở người trưởng thành là từ 90/60 mmHg đến 120/80 mmHg. Chỉ số từ 140/90 mmHg trở lên được chẩn đoán là tăng huyết áp (cao huyết áp), tiềm ẩn nguy cơ đột quỵ và tai biến tim mạch."
+      },
+
+      // DẠNG 2: ĐÚNG - SAI (3 CÂU - 12 NHẬN ĐỊNH - 0.25Đ/Ý = 3.00Đ)
+      {
+        id: 19,
+        lessonId: "bai_30",
+        lessonName: "Bài 30: Khái quát về cơ thể người",
+        type: "true_false",
+        question: "Khi tìm hiểu về cấu tạo và hoạt động khái quát của cơ thể người, các nhận định sau đây là Đúng hay Sai?",
+        pointsPerStatement: 0.25,
+        statements: [
+          { id: "a", text: "Màng tế bào, tế bào chất và nhân là ba thành phần cơ bản cấu tạo nên tế bào cơ thể người.", correctAnswer: true, explanation: "ĐÚNG. Mọi tế bào trong cơ thể người đều có cấu trúc cơ bản gồm màng sinh chất, tế bào chất (chứa các bào quan) và nhân chứa vật chất di truyền DNA." },
+          { id: "b", text: "Các cơ quan nằm trong cùng một khoang cơ thể thì nhất thiết phải thuộc cùng một hệ cơ quan duy nhất.", correctAnswer: false, explanation: "SAI. Trong một khoang cơ thể có thể chứa nhiều cơ quan của các hệ khác nhau (ví dụ khoang bụng chứa dạ dày, ruột, gan, thận...)." },
+          { id: "c", text: "Hệ bài tiết nước tiểu gồm các cơ quan: hai quả thận, hai ống dẫn nước tiểu, bóng đái (bàng quang) và ống đái.", correctAnswer: true, explanation: "ĐÚNG. Đây là cấu tạo hoàn chỉnh của hệ bài tiết nước tiểu theo SGK KHTN 8." },
+          { id: "d", text: "Hệ thần kinh và hệ nội tiết cùng phối hợp điều hòa, phối hợp nhịp nhàng hoạt động của các cơ quan trong cơ thể.", correctAnswer: true, explanation: "ĐÚNG. Cơ thể được điều hòa bởi cơ chế thần kinh và cơ chế thể dịch/nội tiết." }
+        ],
+        explanation: "Câu hỏi kiểm tra kiến thức về tế bào, khoang cơ thể và cơ chế điều hòa hoạt động của cơ thể người."
+      },
+      {
+        id: 20,
+        lessonId: "bai_31",
+        lessonName: "Bài 31 & Bài 32: Hệ vận động và Tiêu hóa",
+        type: "true_false",
+        question: "Khi nghiên cứu về hoạt động của hệ vận động và hệ tiêu hóa ở người, mỗi nhận định sau đây là Đúng hay Sai?",
+        pointsPerStatement: 0.25,
+        statements: [
+          { id: "a", text: "Xương có tính mềm dẻo là nhờ chất khoáng vô cơ, còn có tính bền chắc vững vàng là nhờ chất hữu cơ (cốt giao).", correctAnswer: false, explanation: "SAI. Ngược lại: chất cốt giao hữu cơ tạo tính đàn hồi mềm dẻo, muối khoáng canxi vô cơ tạo độ cứng chắc." },
+          { id: "b", text: "Tắm nắng hợp lí vào buổi sáng sớm giúp tiền chất dưới da chuyển hóa thành vitamin D, thúc đẩy hấp thụ canxi giúp xương chắc khỏe.", correctAnswer: true, explanation: "ĐÚNG. Tia tử ngoại buổi sáng chuyển hóa tiền vitamin D, giúp ruột non hấp thụ canxi phòng loãng xương, còi xương." },
+          { id: "c", text: "Tại thực quản của người, thức ăn được tiêu hóa hóa học mạnh mẽ nhờ các enzyme tiết ra từ thành thực quản.", correctAnswer: false, explanation: "SAI. Thực quản không tiết enzyme tiêu hóa, chỉ vận chuyển cơ học viên thức ăn từ hầu xuống dạ dày." },
+          { id: "d", text: "Chế độ ăn uống cân bằng 4 nhóm chất dinh dưỡng và thói quen ăn chín, uống sôi là giải pháp quan trọng bảo vệ hệ tiêu hóa.", correctAnswer: true, explanation: "ĐÚNG. Ăn đủ 4 nhóm chất kết hợp an toàn thực phẩm bảo vệ cơ quan tiêu hóa." }
+        ],
+        explanation: "Câu hỏi phân biệt thành phần xương, vitamin D và chức năng cơ học của thực quản."
+      },
+      {
+        id: 21,
+        lessonId: "bai_33",
+        lessonName: "Bài 33: Máu và hệ tuần hoàn ở người",
+        type: "true_false",
+        question: "Về thành phần của máu và cấu tạo hệ tuần hoàn ở người, mỗi nhận định sau đây là Đúng hay Sai?",
+        pointsPerStatement: 0.25,
+        statements: [
+          { id: "a", text: "Huyết tương chiếm khoảng 55% thể tích máu, trong đó nước chiếm khoảng 90% thể tích của huyết tương.", correctAnswer: true, explanation: "ĐÚNG. Máu gồm huyết tương (~55%) và tế bào máu (~45%). Huyết tương chứa ~90% là nước." },
+          { id: "b", text: "Động mạch là mạch máu có lòng rộng nhất, thành rất mỏng và luôn có van một chiều chạy suốt chiều dài mạch.", correctAnswer: false, explanation: "SAI. Tĩnh mạch mới có thành mỏng, lòng rộng và có van một chiều ở chi dưới; động mạch thành dày nhiều sợi đàn hồi và không có van dọc thân." },
+          { id: "c", text: "Tiêm vaccine kích thích bạch cầu sản sinh kháng thể và tạo tế bào ghi nhớ, giúp cơ thể miễn dịch chủ động với mầm bệnh.", correctAnswer: true, explanation: "ĐÚNG. Vaccine kích hoạt cơ chế sinh kháng thể phòng bệnh chủ động." },
+          { id: "d", text: "Ở người trưởng thành khỏe mạnh, nhịp tim sinh lý lúc nghỉ ngơi bình thường dao động trong khoảng 60 đến 80 nhịp/phút.", correctAnswer: true, explanation: "ĐÚNG. Nhịp tim trung bình sinh lý lúc nghỉ ngơi là khoảng 60 - 80 lần/phút." }
+        ],
+        explanation: "Câu hỏi kiểm tra thành phần máu, cấu tạo hệ mạch, vaccine và nhịp tim bình thường."
+      },
+
+      // DẠNG 3: TRẢ LỜI NGẮN (10 CÂU - 0.25Đ/CÂU = 2.50Đ)
+      {
+        id: 22,
+        lessonId: "bai_30",
+        lessonName: "Bài 30: Khái quát về cơ thể người",
+        type: "short_answer",
+        question: "Đơn vị cấu trúc và chức năng cơ bản nhất của cơ thể con người là gì?",
+        standardAnswer: "Tế bào",
+        acceptedAnswers: ["tế bào", "te bao", "tế bào sống", "tế bào sinh học"],
+        points: 0.25,
+        hint: "Mọi cơ quan đều được cấu tạo từ các đơn vị sống nhỏ này.",
+        explanation: "Tế bào là đơn vị cấu trúc và chức năng cơ bản nhất của mọi cơ thể sống."
+      },
+      {
+        id: 23,
+        lessonId: "bai_30",
+        lessonName: "Bài 30: Khái quát về cơ thể người",
+        type: "short_answer",
+        question: "Lồng ngực của cơ thể người được giới hạn bởi các xương sườn, cột sống ở phía sau và xương nào ở chính giữa phía trước ngực?",
+        standardAnswer: "Xương ức",
+        acceptedAnswers: ["xương ức", "xuong uc", "ức"],
+        points: 0.25,
+        hint: "Xương dẹt phía trước ngực liên kết với các sụn sườn.",
+        explanation: "Xương ức nằm ở phía trước ngực, khớp với các đôi xương sườn và cột sống tạo thành lồng ngực."
+      },
+      {
+        id: 24,
+        lessonId: "bai_31",
+        lessonName: "Bài 31: Hệ vận động ở người",
+        type: "short_answer",
+        question: "Xương dài nhất và chịu lực nặng nhất trong toàn bộ hệ xương của con người là xương gì?",
+        standardAnswer: "Xương đùi",
+        acceptedAnswers: ["xương đùi", "xuong dui", "đùi"],
+        points: 0.25,
+        hint: "Nằm ở chi dưới nối khớp háng với khớp gối.",
+        explanation: "Xương đùi là xương dài nhất và chịu lực lớn nhất trong cơ thể người."
+      },
+      {
+        id: 25,
+        lessonId: "bai_31",
+        lessonName: "Bài 31: Hệ vận động ở người",
+        type: "short_answer",
+        question: "Bệnh ở hệ vận động xảy ra do mật độ chất khoáng (đặc biệt là canxi) trong xương bị suy giảm, khiến xương trở nên xốp, giòn và rất dễ gãy được gọi là bệnh gì?",
+        standardAnswer: "Loãng xương",
+        acceptedAnswers: ["loãng xương", "loang xuong", "bệnh loãng xương", "benh loang xuong"],
+        points: 0.25,
+        hint: "Bệnh xốp xương do thiếu hụt canxi.",
+        explanation: "Bệnh loãng xương làm suy giảm mật độ khoáng chất của xương khiến xương giòn xốp và dễ gãy."
+      },
+      {
+        id: 26,
+        lessonId: "bai_32",
+        lessonName: "Bài 32: Dinh dưỡng và tiêu hóa ở người",
+        type: "short_answer",
+        question: "Tuyến tiêu hóa lớn nhất trong cơ thể người, có chức năng tiết dịch mật, dự trữ glycogen và khử các chất độc hại là cơ quan nào?",
+        standardAnswer: "Gan",
+        acceptedAnswers: ["gan", "lá gan", "tuyến gan"],
+        points: 0.25,
+        hint: "Nằm ở hạ sườn phải trong khoang bụng.",
+        explanation: "Gan là tuyến tiêu hóa lớn nhất (1,2 - 1,5 kg), tiết dịch mật và khử độc."
+      },
+      {
+        id: 27,
+        lessonId: "bai_32",
+        lessonName: "Bài 32: Dinh dưỡng và tiêu hóa ở người",
+        type: "short_answer",
+        question: "Đoạn đầu tiên của ruột non, có hình chữ C uốn quanh đầu tụy và là nơi tiếp nhận dịch tụy và dịch mật đổ vào có tên gọi là gì?",
+        standardAnswer: "Tá tràng",
+        acceptedAnswers: ["tá tràng", "ta trang"],
+        points: 0.25,
+        hint: "Đoạn ruột non nối trực tiếp với môn vị dạ dày.",
+        explanation: "Tá tràng dài khoảng 25 cm, hình chữ C, là nơi nhận dịch mật và dịch tụy."
+      },
+      {
+        id: 28,
+        lessonId: "bai_32",
+        lessonName: "Bài 32: Dinh dưỡng và tiêu hóa ở người",
+        type: "short_answer",
+        question: "Thành phần dinh dưỡng nào có nhiều trong rau xanh và vỏ hoa quả, không cung cấp calo nhưng đóng vai trò như 'chiếc chổi quét' làm sạch đường tiêu hóa và chống táo bón?",
+        standardAnswer: "Chất xơ",
+        acceptedAnswers: ["chất xơ", "chat xo", "chất xơ thực phẩm", "cellulose"],
+        points: 0.25,
+        hint: "Thành phần có nhiều trong rau xanh chống táo bón.",
+        explanation: "Chất xơ kích thích nhu động ruột già, giữ nước làm mềm phân và phòng ngừa táo bón."
+      },
+      {
+        id: 29,
+        lessonId: "bai_33",
+        lessonName: "Bài 33: Máu và hệ tuần hoàn ở người",
+        type: "short_answer",
+        question: "Trái tim của con người được cấu tạo gồm bao nhiêu ngăn (buồng tim)? (Hãy trả lời bằng một chữ số)",
+        standardAnswer: "4",
+        acceptedAnswers: ["4", "bốn", "4 ngăn", "bon", "4 buồng"],
+        points: 0.25,
+        hint: "Gồm 2 tâm nhĩ ở trên và 2 tâm thất ở dưới.",
+        explanation: "Tim người gồm 4 ngăn: tâm nhĩ phải, tâm nhĩ trái, tâm thất phải, tâm thất trái."
+      },
+      {
+        id: 30,
+        lessonId: "bai_33",
+        lessonName: "Bài 33: Máu và hệ tuần hoàn ở người",
+        type: "short_answer",
+        question: "Mạch máu lớn nhất cơ thể xuất phát từ tâm thất trái, có nhiệm vụ dẫn dòng máu giàu oxygen đi nuôi tất cả các cơ quan trong vòng tuần hoàn lớn là mạch gì?",
+        standardAnswer: "Động mạch chủ",
+        acceptedAnswers: ["động mạch chủ", "dong mach chu", "đmc"],
+        points: 0.25,
+        hint: "Cung động mạch chính dẫn máu đỏ tươi đi khắp cơ thể.",
+        explanation: "Động mạch chủ là động mạch lớn nhất, xuất phát từ tâm thất trái đưa máu giàu oxy đi nuôi cơ thể."
+      },
+      {
+        id: 31,
+        lessonId: "bai_33",
+        lessonName: "Bài 33: Máu và hệ tuần hoàn ở người",
+        type: "short_answer",
+        question: "Khả năng cơ thể tự nhận biết và tiêu diệt các vi sinh vật gây bệnh hoặc các chất lạ xâm nhập nhằm bảo vệ tính toàn vẹn của cơ thể được gọi là gì?",
+        standardAnswer: "Miễn dịch",
+        acceptedAnswers: ["miễn dịch", "mien dich", "hệ miễn dịch", "khả năng miễn dịch"],
+        points: 0.25,
+        hint: "Khả năng tự phòng vệ sinh học chống lại mầm bệnh.",
+        explanation: "Miễn dịch là khả năng nhận biết và tiêu diệt tác nhân gây bệnh của cơ thể nhờ bạch cầu và kháng thể."
+      }
+    ];
+
+    let QUESTIONS = JSON.parse(localStorage.getItem('khtn8_custom_active_questions') || 'null') || DEFAULT_QUESTIONS;
+
+    // Audio Synthesizer
+    const AudioEngine = {
+      ctx: null,
+      muted: false,
+      init() {
+        if (!this.ctx) {
+          const AudioContext = window.AudioContext || window.webkitAudioContext;
+          if (AudioContext) this.ctx = new AudioContext();
+        }
+        if (this.ctx && this.ctx.state === 'suspended') this.ctx.resume();
+      },
+      click() {
+        if (this.muted) return;
+        try {
+          this.init();
+          if (!this.ctx) return;
+          const osc = this.ctx.createOscillator();
+          const gain = this.ctx.createGain();
+          const now = this.ctx.currentTime;
+          osc.frequency.setValueAtTime(600, now);
+          osc.frequency.exponentialRampToValueAtTime(300, now + 0.04);
+          gain.gain.setValueAtTime(0.1, now);
+          gain.gain.exponentialRampToValueAtTime(0.001, now + 0.04);
+          osc.connect(gain);
+          gain.connect(this.ctx.destination);
+          osc.start(now);
+          osc.stop(now + 0.04);
+        } catch(e){}
+      },
+      correct() {
+        if (this.muted) return;
+        try {
+          this.init();
+          if (!this.ctx) return;
+          const notes = [523.25, 659.25, 783.99, 1046.5];
+          const now = this.ctx.currentTime;
+          notes.forEach((freq, idx) => {
+            const osc = this.ctx.createOscillator();
+            const gain = this.ctx.createGain();
+            const start = now + idx * 0.06;
+            osc.frequency.setValueAtTime(freq, start);
+            gain.gain.setValueAtTime(0, start);
+            gain.gain.linearRampToValueAtTime(0.18, start + 0.02);
+            gain.gain.exponentialRampToValueAtTime(0.001, start + 0.2);
+            osc.connect(gain);
+            gain.connect(this.ctx.destination);
+            osc.start(start);
+            osc.stop(start + 0.2);
+          });
+        } catch(e){}
+      },
+      incorrect() {
+        if (this.muted) return;
+        try {
+          this.init();
+          if (!this.ctx) return;
+          const now = this.ctx.currentTime;
+          const osc = this.ctx.createOscillator();
+          const gain = this.ctx.createGain();
+          osc.type = 'sawtooth';
+          osc.frequency.setValueAtTime(220, now);
+          osc.frequency.linearRampToValueAtTime(140, now + 0.25);
+          gain.gain.setValueAtTime(0.12, now);
+          gain.gain.exponentialRampToValueAtTime(0.001, now + 0.25);
+          osc.connect(gain);
+          gain.connect(this.ctx.destination);
+          osc.start(now);
+          osc.stop(now + 0.25);
+        } catch(e){}
+      },
+      fanfare() {
+        if (this.muted) return;
+        try {
+          this.init();
+          if (!this.ctx) return;
+          const chords = [
+            { f: 523.25, t: 0.0, d: 0.15 },
+            { f: 659.25, t: 0.12, d: 0.15 },
+            { f: 783.99, t: 0.24, d: 0.2 },
+            { f: 1046.5, t: 0.42, d: 0.6 }
+          ];
+          const now = this.ctx.currentTime;
+          chords.forEach(c => {
+            const osc = this.ctx.createOscillator();
+            const gain = this.ctx.createGain();
+            const st = now + c.t;
+            osc.type = 'triangle';
+            osc.frequency.setValueAtTime(c.f, st);
+            gain.gain.setValueAtTime(0, st);
+            gain.gain.linearRampToValueAtTime(0.2, st + 0.02);
+            gain.gain.exponentialRampToValueAtTime(0.001, st + c.d);
+            osc.connect(gain);
+            gain.connect(this.ctx.destination);
+            osc.start(st);
+            osc.stop(st + c.d);
+          });
+        } catch(e){}
+      }
+    };
+
+    const state = {
+      screen: 'home',
+      student: { fullName: '', className: '', studentId: '' },
+      currentIndex: 0,
+      selectedMCQ: null,
+      tfSelections: { a: null, b: null, c: null, d: null },
+      shortInput: '',
+      isSubmitted: false,
+      feedback: null,
+      currentPoints: 0,
+      elapsedSeconds: 0,
+      questionTimer: 45,
+      timerInterval: null,
+      qTimerInterval: null,
+      answers: {},
+      attempts: JSON.parse(localStorage.getItem('khtn8_quiz_attempts_v1') || '[]')
+    };
+
+    function saveAttempt(attempt) {
+      state.attempts.unshift(attempt);
+      if (state.attempts.length > 250) state.attempts.length = 250;
+      localStorage.setItem('khtn8_quiz_attempts_v1', JSON.stringify(state.attempts));
+    }
+
+    function checkShortAnswerMatch(input, q) {
+      if (!input) return false;
+      const clean = input.toLowerCase().trim().replace(/[.,/#!$%^&*;:{}=\-_`~()]/g, '').replace(/\s+/g, ' ');
+      return q.acceptedAnswers.some(ans => {
+        const cleanAns = ans.toLowerCase().trim().replace(/[.,/#!$%^&*;:{}=\-_`~()]/g, '').replace(/\s+/g, ' ');
+        return clean === cleanAns;
+      });
+    }
+
+    function formatTime(sec) {
+      const m = Math.floor(sec / 60);
+      const s = Math.floor(sec % 60);
+      return (m < 10 ? '0' : '') + m + ':' + (s < 10 ? '0' : '') + s;
+    }
+
+    function render() {
+      const app = document.getElementById('app');
+      let html = '';
+
+      html += `
+        <header class="border-b border-slate-800 bg-slate-950/90 backdrop-blur sticky top-0 z-40">
+          <div class="max-w-6xl mx-auto px-4 py-3 flex items-center justify-between">
+            <div class="flex items-center gap-3 cursor-pointer" onclick="goTo('home')">
+              <div class="w-9 h-9 rounded-xl bg-gradient-to-br from-cyan-500 to-blue-600 flex items-center justify-center font-bold text-white shadow">🧬</div>
+              <div>
+                <div class="text-sm sm:text-base font-extrabold text-white flex items-center gap-2">
+                  <span>ĐẤU TRƯỜNG TRI THỨC</span>
+                  <span class="text-[11px] px-1.5 py-0.2 rounded bg-cyan-950 border border-cyan-800 text-cyan-300">KHTN 8</span>
+                </div>
+                <div class="text-xs text-slate-400">
+                  <span class="text-amber-400 font-semibold">Cô Lê Thủy AI</span> · Chinh Phục Cơ Thể Người
+                </div>
+              </div>
+            </div>
+
+            <div class="flex items-center gap-2">
+              <button onclick="goTo('leaderboard')" class="text-xs font-semibold px-2.5 py-1.5 rounded-lg border border-amber-500/30 bg-amber-500/10 text-amber-300 hover:bg-amber-500/20">
+                🏆 Bảng vàng
+              </button>
+              <button onclick="goTo('teacher')" class="text-xs font-semibold px-2.5 py-1.5 rounded-lg border border-blue-500/30 bg-blue-500/10 text-blue-300 hover:bg-blue-500/20">
+                🛡️ Giáo viên
+              </button>
+              <button onclick="toggleAudio()" class="w-8 h-8 rounded-lg border border-slate-800 bg-slate-900 text-slate-300 flex items-center justify-center hover:text-white">
+                ${AudioEngine.muted ? '🔇' : '🔊'}
+              </button>
+            </div>
+          </div>
+        </header>
+      `;
+
+      if (state.screen === 'home') html += renderHomeScreen();
+      else if (state.screen === 'info') html += renderInfoScreen();
+      else if (state.screen === 'quiz') html += renderQuizScreen();
+      else if (state.screen === 'result') html += renderResultScreen();
+      else if (state.screen === 'instructions') html += renderInstructionsScreen();
+      else if (state.screen === 'leaderboard') html += renderLeaderboardScreen();
+      else if (state.screen === 'teacher') html += renderTeacherScreen();
+
+      app.innerHTML = html;
+    }
+
+    function renderHomeScreen() {
+      return `
+        <div class="flex-1 max-w-4xl mx-auto px-4 py-8 text-center flex flex-col justify-center">
+          <div class="inline-flex items-center gap-2 rounded-full border border-amber-500/30 bg-amber-500/10 px-4 py-1.5 text-xs font-semibold text-amber-300 mb-6 mx-auto">
+            ✨ KHOA HỌC TỰ NHIÊN 8 · CHƯƠNG TRÌNH GDPT 2018
+          </div>
+          <h1 class="text-3xl sm:text-5xl font-black text-white mb-2">ĐẤU TRƯỜNG TRI THỨC</h1>
+          <div class="text-xl sm:text-3xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 via-teal-300 to-amber-300 mb-3">
+            CHINH PHỤC CƠ THỂ NGƯỜI
+          </div>
+          <p class="text-sm text-slate-300 mb-8">
+            Tác giả: <strong class="text-amber-400">Cô Lê Thủy AI</strong> · Giáo viên KHTN THCS 20+ năm kinh nghiệm
+          </p>
+
+          <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-3 text-left mb-8">
+            <div class="rounded-xl border border-slate-800 bg-slate-900/80 p-3.5">
+              <div class="text-xs font-bold text-cyan-400">BÀI 30</div>
+              <div class="text-sm font-bold text-white mb-1">Khái Quát Cơ Thể</div>
+              <p class="text-xs text-slate-400">Cấu tạo tế bào, các khoang cơ thể, các hệ cơ quan và sự phối hợp.</p>
+            </div>
+            <div class="rounded-xl border border-slate-800 bg-slate-900/80 p-3.5">
+              <div class="text-xs font-bold text-blue-400">BÀI 31</div>
+              <div class="text-sm font-bold text-white mb-1">Hệ Vận Động</div>
+              <p class="text-xs text-slate-400">Bộ xương (206 xương), cơ, khớp, phòng vẹo cột sống, sơ cứu gãy xương.</p>
+            </div>
+            <div class="rounded-xl border border-slate-800 bg-slate-900/80 p-3.5">
+              <div class="text-xs font-bold text-emerald-400">BÀI 32</div>
+              <div class="text-sm font-bold text-white mb-1">Dinh Dưỡng & Tiêu Hóa</div>
+              <p class="text-xs text-slate-400">Các nhóm chất, enzyme, ruột non, gan, phòng đau dạ dày, táo bón.</p>
+            </div>
+            <div class="rounded-xl border border-slate-800 bg-slate-900/80 p-3.5">
+              <div class="text-xs font-bold text-rose-400">BÀI 33</div>
+              <div class="text-sm font-bold text-white mb-1">Máu & Hệ Tuần Hoàn</div>
+              <p class="text-xs text-slate-400">Hồng cầu, tiểu cầu, nhóm máu ABO, tim 4 ngăn, huyết áp, miễn dịch.</p>
+            </div>
+          </div>
+
+          <div class="flex flex-col sm:flex-row items-center justify-center gap-3">
+            <button onclick="startApp()" class="w-full sm:w-auto px-8 py-4 rounded-xl bg-gradient-to-r from-cyan-500 to-blue-600 font-extrabold text-white text-base shadow-lg shadow-cyan-500/25 hover:from-cyan-400 hover:to-blue-500 transition-all">
+              🚀 BẮT ĐẦU VÀO ĐẤU TRƯỜNG
+            </button>
+            <button onclick="goTo('instructions')" class="w-full sm:w-auto px-6 py-4 rounded-xl border border-slate-700 bg-slate-900 font-bold text-sm text-slate-300 hover:text-white">
+              📖 Hướng Dẫn & Thể Lệ
+            </button>
+            <button onclick="goTo('leaderboard')" class="w-full sm:w-auto px-6 py-4 rounded-xl border border-amber-500/30 bg-amber-500/10 font-bold text-sm text-amber-300 hover:bg-amber-500/20">
+              🏆 Xem Bảng Xếp Hạng
+            </button>
+          </div>
+
+          <div class="mt-8 pt-4 border-t border-slate-800/80 text-xs text-slate-500">
+            31 câu hỏi · 40 đơn vị tính điểm · 0,25đ / mỗi ý đúng · Thang điểm 10,00
+          </div>
+        </div>
+      `;
+    }
+
+    function renderInfoScreen() {
+      return `
+        <div class="flex-1 max-w-md mx-auto px-4 py-10 flex flex-col justify-center">
+          <div class="rounded-2xl border border-slate-800 bg-slate-900 p-6 sm:p-8 shadow-2xl">
+            <h2 class="text-xl font-black text-white text-center mb-1">THÔNG TIN THÍ SINH</h2>
+            <p class="text-xs text-slate-400 text-center mb-6">Chỉ cần nhập Họ tên và Lớp để vào Đấu Trường</p>
+
+            <form onsubmit="submitStudentInfo(event)" class="space-y-4">
+              <div>
+                <label class="block text-xs font-bold text-slate-300 uppercase mb-1">Họ và tên học sinh *</label>
+                <input id="infoName" type="text" required placeholder="Ví dụ: Nguyễn Văn An" class="w-full rounded-xl border border-slate-700 bg-slate-950 px-3.5 py-2.5 text-sm text-white focus:border-cyan-500 focus:outline-none" />
+              </div>
+              <div>
+                <label class="block text-xs font-bold text-slate-300 uppercase mb-1">Lớp học *</label>
+                <input id="infoClass" type="text" required placeholder="Ví dụ: 8A1, 8A2, 8B..." class="w-full rounded-xl border border-slate-700 bg-slate-950 px-3.5 py-2.5 text-sm text-white focus:border-cyan-500 focus:outline-none uppercase" />
+              </div>
+
+              <div class="rounded-xl border border-cyan-500/20 bg-cyan-950/30 p-2.5 text-xs text-cyan-300">
+                ✨ Mã số học sinh sẽ được hệ thống <strong>tự động cấp</strong> theo lớp của em.
+              </div>
+
+              <div class="rounded-xl border border-slate-800 bg-slate-950 p-3 text-xs text-slate-300 space-y-1">
+                <div class="font-bold text-amber-400 mb-1">Quy định tính điểm: 0,25 đ / ý đúng (Tổng 10,00 đ)</div>
+                <div>• 18 câu trắc nghiệm: 18 x 0,25 = 4,50 đ</div>
+                <div>• 3 câu đúng-sai (12 ý): 12 x 0,25 = 3,00 đ</div>
+                <div>• 10 câu trả lời ngắn: 10 x 0,25 = 2,50 đ</div>
+              </div>
+
+              <button type="submit" class="w-full py-3 rounded-xl bg-gradient-to-r from-cyan-500 to-blue-600 font-bold text-sm text-white shadow hover:from-cyan-400 hover:to-blue-500">
+                XÁC NHẬN VÀO THI ➔
+              </button>
+            </form>
+          </div>
+        </div>
+      `;
+    }
+
+    function renderQuizScreen() {
+      const q = QUESTIONS[state.currentIndex];
+      const progress = Math.round(((state.currentIndex + 1) / QUESTIONS.length) * 100);
+
+      let typeBadge = '';
+      if (q.type === 'mcq') typeBadge = '<span class="px-2 py-0.5 rounded bg-cyan-950 border border-cyan-800 text-cyan-300 text-xs font-bold">DẠNG 1: TRẮC NGHIỆM (0.25Đ)</span>';
+      else if (q.type === 'true_false') typeBadge = '<span class="px-2 py-0.5 rounded bg-amber-950 border border-amber-800 text-amber-300 text-xs font-bold">DẠNG 2: ĐÚNG - SAI (0.25Đ/Ý)</span>';
+      let levelBadge = '';
+      if (q.type === 'mcq') {
+        if (q.level === 'nhan_biet') levelBadge = '<span class="px-2 py-0.5 rounded bg-blue-950 border border-blue-800 text-blue-300 text-xs font-semibold">Nhận biết · 20s</span>';
+        else if (q.level === 'thong_hieu') levelBadge = '<span class="px-2 py-0.5 rounded bg-emerald-950 border border-emerald-800 text-emerald-300 text-xs font-semibold">Thông hiểu · 25s</span>';
+        else levelBadge = '<span class="px-2 py-0.5 rounded bg-amber-950 border border-amber-800 text-amber-300 text-xs font-semibold">Vận dụng · 30s</span>';
+      }
+
+      return `
+        <div class="flex-1 max-w-3xl mx-auto px-4 py-6 w-full">
+          <div class="rounded-2xl border border-slate-800 bg-slate-900 p-4 mb-4 shadow">
+            <div class="flex justify-between items-center text-xs text-slate-300 mb-2">
+              <span class="font-bold text-white">${state.student.fullName} (Lớp ${state.student.className})</span>
+              <div class="flex items-center gap-3 font-mono">
+                <span class="${state.questionTimer <= 5 ? 'text-rose-400 font-bold animate-pulse' : 'text-slate-300'}">⏱️ ${state.questionTimer}s</span>
+                <span class="text-amber-400 font-bold">⭐ ${state.currentPoints.toFixed(2)}đ</span>
+              </div>
+            </div>
+            <div class="flex justify-between text-xs text-slate-400 mb-1">
+              <span>Câu ${state.currentIndex + 1} / ${QUESTIONS.length}</span>
+              <span>${progress}% hoàn thành</span>
+            </div>
+            <div class="h-2 w-full bg-slate-800 rounded-full overflow-hidden">
+              <div class="h-full bg-cyan-500 transition-all duration-300" style="width: ${progress}%"></div>
+            </div>
+          </div>
+
+          <div class="rounded-2xl border border-slate-800 bg-slate-900 p-6 shadow-xl mb-4">
+            <div class="flex flex-wrap justify-between items-center gap-2 mb-3">
+              <div class="flex flex-wrap items-center gap-2">${typeBadge}${levelBadge}</div>
+              <span class="text-xs text-slate-400">${q.lessonName}</span>
+            </div>
+
+            <h3 class="text-base sm:text-lg font-bold text-white mb-6 leading-relaxed">
+              <span class="text-cyan-400">Câu ${q.id}:</span> ${q.question}
+            </h3>
+
+            ${q.type === 'mcq' ? renderMCQOptions(q) : ''}
+            ${q.type === 'true_false' ? renderTFStatements(q) : ''}
+            ${q.type === 'short_answer' ? renderShortAnswerInput(q) : ''}
+
+            <div class="pt-4 border-t border-slate-800 flex flex-col sm:flex-row justify-between items-center gap-3">
+              <div>
+                ${!state.isSubmitted ? '<span class="text-xs text-slate-400">Chọn hoặc nhập đáp án rồi bấm xác nhận</span>' : (
+                  state.feedback?.isFullyCorrect
+                    ? '<span class="text-xs font-bold text-emerald-400 bg-emerald-500/10 px-2.5 py-1 rounded">✓ CHÍNH XÁC (+' + state.feedback.earned.toFixed(2) + 'đ)</span>'
+                    : '<span class="text-xs font-bold text-rose-400 bg-rose-500/10 px-2.5 py-1 rounded">✗ CHƯA CHÍNH XÁC (+' + (state.feedback?.earned || 0).toFixed(2) + 'đ)</span>'
+                )}
+              </div>
+              <div>
+                ${!state.isSubmitted ? `
+                  <button onclick="submitCurrentAnswer()" ${canSubmit() ? '' : 'disabled'} class="px-6 py-2.5 rounded-xl bg-cyan-500 hover:bg-cyan-400 disabled:opacity-40 font-bold text-xs text-slate-950">
+                    XÁC NHẬN CÂU TRẢ LỜI
+                  </button>
+                ` : `
+                  <button onclick="nextQuestion()" class="px-6 py-2.5 rounded-xl bg-amber-500 hover:bg-amber-400 font-bold text-xs text-slate-950">
+                    ${state.currentIndex < QUESTIONS.length - 1 ? 'CÂU TIẾP THEO ➔' : 'XEM KẾT QUẢ ➔'}
+                  </button>
+                `}
+              </div>
+            </div>
+
+            ${state.isSubmitted ? `
+              <div class="mt-4 rounded-xl border border-cyan-500/30 bg-cyan-950/30 p-3.5 text-xs text-slate-300">
+                <strong class="text-cyan-400">💡 Giải thích khoa học: </strong> ${q.explanation}
+                ${q.type === 'short_answer' ? '<div class="mt-1 text-amber-300"><strong>Đáp án chuẩn:</strong> ' + q.standardAnswer + '</div>' : ''}
+              </div>
+            ` : ''}
+          </div>
+        </div>
+      `;
+    }
+
+    function renderMCQOptions(q) {
+      let str = '<div class="space-y-2.5 mb-6">';
+      q.options.forEach(opt => {
+        const isSel = state.selectedMCQ === opt.key;
+        const isRight = q.correctAnswer === opt.key;
+        let cls = 'border-slate-800 bg-slate-950/70 hover:border-slate-700 text-slate-200';
+        if (isSel && !state.isSubmitted) {
+          cls = 'border-cyan-500 bg-cyan-950/40 text-white';
+        } else if (state.isSubmitted) {
+          if (isRight) cls = 'border-emerald-500 bg-emerald-950/50 text-emerald-200';
+          else if (isSel && !isRight) cls = 'border-rose-500 bg-rose-950/50 text-rose-200';
+          else cls = 'border-slate-800/50 bg-slate-950/30 text-slate-500 opacity-60';
+        }
+
+        str += `
+          <button type="button" ${state.isSubmitted ? 'disabled' : ''} onclick="selectMCQ('${opt.key}')" class="w-full text-left flex items-start gap-3 rounded-xl border p-3.5 transition ${cls}">
+            <span class="w-6 h-6 rounded bg-slate-800 flex items-center justify-center font-bold text-xs shrink-0">${opt.key}</span>
+            <span class="text-sm pt-0.5">${opt.text}</span>
+          </button>
+        `;
+      });
+      str += '</div>';
+      return str;
+    }
+
+    function renderTFStatements(q) {
+      let str = '<div class="space-y-3 mb-6">';
+      q.statements.forEach(st => {
+        const userChoice = state.tfSelections[st.id];
+        str += `
+          <div class="rounded-xl border border-slate-800 bg-slate-950/60 p-3.5 flex flex-col sm:flex-row justify-between items-start sm:items-center gap-3">
+            <div class="text-xs sm:text-sm text-slate-200 flex-1">
+              <strong class="text-amber-400 mr-1">${st.id})</strong> ${st.text}
+            </div>
+            <div class="flex items-center gap-2 shrink-0">
+              <button type="button" ${state.isSubmitted ? 'disabled' : ''} onclick="setTF('${st.id}', true)" class="px-3 py-1 rounded text-xs font-bold ${userChoice === true ? 'bg-emerald-500 text-slate-950' : 'bg-slate-800 text-slate-300'}">ĐÚNG</button>
+              <button type="button" ${state.isSubmitted ? 'disabled' : ''} onclick="setTF('${st.id}', false)" class="px-3 py-1 rounded text-xs font-bold ${userChoice === false ? 'bg-rose-500 text-white' : 'bg-slate-800 text-slate-300'}">SAI</button>
+            </div>
+          </div>
+        `;
+      });
+      str += '</div>';
+      return str;
+    }
+
+    function renderShortAnswerInput(q) {
+      return `
+        <div class="mb-6">
+          <label class="block text-xs font-bold text-teal-300 uppercase mb-2">Nhập câu trả lời của bạn:</label>
+          <input id="shortAnsInput" type="text" ${state.isSubmitted ? 'disabled' : ''} value="${state.shortInput}" oninput="state.shortInput = this.value" placeholder="Từ, cụm từ hoặc con số..." class="w-full rounded-xl border border-slate-700 bg-slate-950 px-4 py-3 text-sm text-white focus:border-teal-500 focus:outline-none" />
+          ${q.hint ? '<p class="text-[11px] text-amber-300/80 mt-1.5">💡 Gợi ý: ' + q.hint + '</p>' : ''}
+        </div>
+      `;
+    }
+
+    function renderResultScreen() {
+      const finalScore = Math.min(10, Math.round(state.currentPoints * 100) / 100);
+      let rankText = 'XUẤT SẮC · QUÁN QUÂN ĐẤU TRƯỜNG';
+      if (finalScore < 6.5) rankText = 'CẦN CỐ GẮNG ÔN TẬP';
+      else if (finalScore < 8.0) rankText = 'HỌC LỰC KHÁ';
+      else if (finalScore < 9.0) rankText = 'HỌC LỰC GIỎI';
+
+      return `
+        <div class="flex-1 max-w-2xl mx-auto px-4 py-8 text-center flex flex-col justify-center">
+          <div class="rounded-3xl border border-slate-800 bg-slate-900 p-8 shadow-2xl">
+            <div class="text-4xl mb-3">🏆</div>
+            <div class="text-xs font-bold text-amber-400 uppercase tracking-widest mb-1">${rankText}</div>
+            <h2 class="text-2xl font-black text-white mb-2">KẾT QUẢ ĐẤU TRƯỜNG TRI THỨC</h2>
+            <p class="text-xs text-slate-400 mb-6">Thí sinh: <strong class="text-white">${state.student.fullName}</strong> · Lớp ${state.student.className} · Mã số: ${state.student.studentId}</p>
+
+            <div class="inline-block rounded-2xl border border-slate-800 bg-slate-950 px-8 py-5 mb-6">
+              <span class="text-xs font-bold text-slate-400 uppercase">TỔNG ĐIỂM (0,25đ / ý đúng)</span>
+              <div class="text-5xl font-black text-amber-400">${finalScore.toFixed(2)} <span class="text-lg text-slate-500 font-normal">/ 10,00</span></div>
+              <div class="text-xs text-slate-400 mt-1">Thời gian: ${formatTime(state.elapsedSeconds)}</div>
+            </div>
+
+            <div class="flex flex-wrap justify-center gap-3">
+              <button onclick="startApp()" class="px-6 py-2.5 rounded-xl bg-cyan-500 hover:bg-cyan-400 font-bold text-xs text-slate-950">
+                🔄 LÀM LẠI BÀI THI
+              </button>
+              <button onclick="goTo('leaderboard')" class="px-6 py-2.5 rounded-xl border border-amber-500/30 bg-amber-500/10 text-amber-300 font-bold text-xs hover:bg-amber-500/20">
+                🏆 BẢNG XẾP HẠNG
+              </button>
+              <button onclick="goTo('home')" class="px-6 py-2.5 rounded-xl border border-slate-700 bg-slate-800 text-slate-300 font-bold text-xs hover:text-white">
+                🏠 VỀ TRANG CHỦ
+              </button>
+            </div>
+          </div>
+        </div>
+      `;
+    }
+
+    function renderInstructionsScreen() {
+      return `
+        <div class="flex-1 max-w-2xl mx-auto px-4 py-8">
+          <div class="rounded-2xl border border-slate-800 bg-slate-900 p-6 sm:p-8">
+            <h2 class="text-xl font-bold text-white mb-4">HƯỚNG DẪN & THỂ LỆ</h2>
+            <div class="space-y-4 text-xs sm:text-sm text-slate-300">
+              <p>Ứng dụng do <strong>Cô Lê Thủy AI</strong> biên soạn, gồm 31 câu hỏi ôn tập 4 bài KHTN 8 (GDPT 2018 - Kết nối tri thức):</p>
+              <ul class="list-disc pl-5 space-y-1">
+                <li>Bài 30: Khái quát về cơ thể người</li>
+                <li>Bài 31: Hệ vận động ở người</li>
+                <li>Bài 32: Dinh dưỡng và tiêu hóa ở người</li>
+                <li>Bài 33: Máu và hệ tuần hoàn ở người</li>
+              </ul>
+              <div class="p-3 bg-slate-950 border border-slate-800 rounded-xl space-y-1">
+                <div class="font-bold text-amber-400">Thang điểm: 0,25 đ / mỗi ý hoặc câu đúng (Tổng 10,00 đ)</div>
+                <div>• 18 câu trắc nghiệm: 18 x 0,25 = 4,50 đ</div>
+                <div>• 3 câu đúng-sai (12 ý): 12 x 0,25 = 3,00 đ</div>
+                <div>• 10 câu trả lời ngắn: 10 x 0,25 = 2,50 đ</div>
+              </div>
+              <div class="p-3 bg-slate-950/70 border border-cyan-900/40 rounded-xl text-xs space-y-1 text-slate-300">
+                <div class="font-bold text-cyan-300">⏱️ Đồng hồ đếm ngược từng câu:</div>
+                <div>• <strong>Trắc nghiệm (Dạng 1):</strong> <strong>20 - 30 giây</strong> tùy độ khó (Nhận biết: 20s · Thông hiểu: 25s · Vận dụng: 30s)</div>
+                <div>• <strong>Đúng - Sai (Dạng 2):</strong> 50 giây cho 4 nhận định độc lập</div>
+                <div>• <strong>Trả lời ngắn (Dạng 3):</strong> 40 giây cho mỗi câu</div>
+              </div>
+            </div>
+            <div class="mt-6 flex justify-end">
+              <button onclick="goTo('home')" class="px-5 py-2 rounded-xl bg-slate-800 text-xs font-bold text-white">ĐÓNG</button>
+            </div>
+          </div>
+        </div>
+      `;
+    }
+
+    function renderLeaderboardScreen() {
+      const sorted = [...state.attempts].sort((a,b) => b.totalScore !== a.totalScore ? b.totalScore - a.totalScore : a.totalDurationSeconds - b.totalDurationSeconds);
+      return `
+        <div class="flex-1 max-w-3xl mx-auto px-4 py-8">
+          <div class="rounded-2xl border border-slate-800 bg-slate-900 p-6">
+            <h2 class="text-lg font-bold text-white mb-4 flex items-center gap-2">🏆 BẢNG VÀNG THÀNH TÍCH (${sorted.length})</h2>
+            ${sorted.length > 0 ? `
+              <div class="overflow-x-auto">
+                <table class="w-full text-left text-xs">
+                  <tr class="border-b border-slate-800 text-slate-400 uppercase font-semibold">
+                    <th class="py-2">Hạng</th><th class="py-2">Học sinh</th><th class="py-2">Lớp</th><th class="py-2 text-right">Điểm</th><th class="py-2 text-right">Thời gian</th>
+                  </tr>
+                  ${sorted.map((att, idx) => `
+                    <tr class="border-b border-slate-800/40">
+                      <td class="py-2 font-bold">${idx === 0 ? '🥇' : idx === 1 ? '🥈' : idx === 2 ? '🥉' : '#' + (idx + 1)}</td>
+                      <td class="py-2 font-semibold text-white">${att.student.fullName}</td>
+                      <td class="py-2"><span class="px-1.5 py-0.5 rounded bg-slate-800 text-cyan-300">${att.student.className}</span></td>
+                      <td class="py-2 text-right font-bold text-amber-300">${att.totalScore.toFixed(2)}đ</td>
+                      <td class="py-2 text-right text-slate-400 font-mono">${formatTime(att.totalDurationSeconds)}</td>
+                    </tr>
+                  `).join('')}
+                </table>
+              </div>
+            ` : '<div class="py-8 text-center text-slate-500 text-xs">Chưa có kết quả nào được ghi nhận.</div>'}
+            <div class="mt-4 flex justify-end">
+              <button onclick="goTo('home')" class="px-5 py-2 rounded-xl bg-slate-800 text-xs font-bold text-white">ĐÓNG</button>
+            </div>
+          </div>
+        </div>
+      `;
+    }
+
+    function renderTeacherScreen() {
+      const sorted = [...state.attempts].sort((a,b) => b.totalScore !== a.totalScore ? b.totalScore - a.totalScore : a.totalDurationSeconds - b.totalDurationSeconds);
+      
+      // Calculate class stats
+      const classMap = {};
+      state.attempts.forEach(a => {
+        const c = a.student.className || 'Chưa rõ';
+        if (!classMap[c]) classMap[c] = [];
+        classMap[c].push(a);
+      });
+
+      const classList = Object.keys(classMap).sort();
+
+      return `
+        <div class="flex-1 max-w-5xl mx-auto px-4 py-8">
+          <div class="rounded-2xl border border-slate-800 bg-slate-900 p-6 mb-6">
+            <div class="flex flex-col sm:flex-row justify-between items-start sm:items-center gap-3 mb-6">
+              <div>
+                <h2 class="text-lg font-bold text-white">🛡️ KHU VỰC QUẢN TRỊ GIÁO VIÊN</h2>
+                <p class="text-xs text-slate-400">Đã lưu trữ ${state.attempts.length}/250 thí sinh · 0,25đ / ý đúng</p>
+              </div>
+              <div class="flex flex-wrap items-center gap-2">
+                <button onclick="exportCSV()" class="px-3 py-1.5 rounded-lg bg-emerald-600 text-xs font-bold text-white hover:bg-emerald-500">
+                  📥 Xuất Excel Cá Nhân
+                </button>
+                <button onclick="exportClassReport()" class="px-3 py-1.5 rounded-lg bg-cyan-600 text-xs font-bold text-white hover:bg-cyan-500">
+                  📊 Xuất Excel Theo Lớp
+                </button>
+                <button onclick="clearData()" class="px-3 py-1.5 rounded-lg bg-rose-600 text-xs font-bold text-white hover:bg-rose-500">
+                  🗑️ Xóa toàn bộ
+                </button>
+                <button onclick="goTo('home')" class="px-3 py-1.5 rounded-lg bg-slate-800 text-xs font-bold text-slate-300">
+                  ✕ Đóng
+                </button>
+              </div>
+            </div>
+
+            <!-- Class Stats Table -->
+            <div class="mb-6">
+              <h3 class="text-sm font-bold text-amber-400 mb-2">BẢNG TỔNG HỢP THEO LỚP</h3>
+              ${classList.length > 0 ? `
+                <div class="overflow-x-auto border border-slate-800 rounded-xl mb-4">
+                  <table class="w-full text-left text-xs">
+                    <tr class="bg-slate-950 border-b border-slate-800 text-slate-400 font-semibold">
+                      <th class="py-2 px-3">Lớp</th><th class="py-2 px-3 text-center">Sĩ số</th><th class="py-2 px-3 text-right">Điểm TB</th><th class="py-2 px-3 text-right">Cao nhất</th><th class="py-2 px-3 text-right">Thấp nhất</th>
+                    </tr>
+                    ${classList.map(cls => {
+                      const list = classMap[cls];
+                      const scores = list.map(x => x.totalScore);
+                      const avg = (scores.reduce((a,b)=>a+b, 0) / list.length).toFixed(2);
+                      const max = Math.max(...scores).toFixed(2);
+                      const min = Math.min(...scores).toFixed(2);
+                      return `
+                        <tr class="border-b border-slate-800/40">
+                          <td class="py-2 px-3 font-bold text-cyan-300">${cls}</td>
+                          <td class="py-2 px-3 text-center">${list.length}</td>
+                          <td class="py-2 px-3 text-right font-bold text-amber-300">${avg}</td>
+                          <td class="py-2 px-3 text-right text-emerald-400">${max}</td>
+                          <td class="py-2 px-3 text-right text-rose-400">${min}</td>
+                        </tr>
+                      `;
+                    }).join('')}
+                  </table>
+                </div>
+              ` : '<p class="text-xs text-slate-500 mb-4">Chưa có dữ liệu theo lớp.</p>'}
+            </div>
+
+            <!-- Individual Student Table -->
+            <h3 class="text-sm font-bold text-cyan-400 mb-2">BẢNG ĐIỂM CHI TIẾT HỌC SINH</h3>
+            ${sorted.length > 0 ? `
+              <div class="overflow-x-auto max-h-80 border border-slate-800 rounded-xl">
+                <table class="w-full text-left text-xs">
+                  <thead class="sticky top-0 bg-slate-900 border-b border-slate-800 text-slate-400 font-semibold">
+                    <tr><th class="py-2 px-3">Hạng</th><th class="py-2 px-3">Họ tên</th><th class="py-2 px-3">Lớp</th><th class="py-2 px-3">Mã số tự động</th><th class="py-2 px-3 text-right">Điểm (/10)</th><th class="py-2 px-3 text-right">Thời gian</th></tr>
+                  </thead>
+                  <tbody>
+                    ${sorted.map((att, idx) => `
+                      <tr class="border-b border-slate-800/40">
+                        <td class="py-2 px-3 font-bold">#${idx + 1}</td>
+                        <td class="py-2 px-3 text-white font-medium">${att.student.fullName}</td>
+                        <td class="py-2 px-3">${att.student.className}</td>
+                        <td class="py-2 px-3 font-mono text-slate-400">${att.student.studentId}</td>
+                        <td class="py-2 px-3 text-right font-bold text-amber-300">${att.totalScore.toFixed(2)}</td>
+                        <td class="py-2 px-3 text-right font-mono text-slate-400">${formatTime(att.totalDurationSeconds)}</td>
+                      </tr>
+                    `).join('')}
+                  </tbody>
+                </table>
+              </div>
+            ` : '<div class="py-8 text-center text-slate-500 text-xs">Chưa có dữ liệu thí sinh.</div>'}
+          </div>
+        </div>
+      `;
+    }
+
+    function goTo(scr) {
+      AudioEngine.click();
+      state.screen = scr;
+      render();
+    }
+
+    function toggleAudio() {
+      AudioEngine.muted = !AudioEngine.muted;
+      render();
+    }
+
+    function startApp() {
+      AudioEngine.click();
+      state.screen = 'info';
+      render();
+    }
+
+    function submitStudentInfo(e) {
+      e.preventDefault();
+      AudioEngine.click();
+      const cls = document.getElementById('infoClass').value.trim().toUpperCase();
+      const autoId = 'HS-' + cls + '-' + Math.floor(100 + Math.random() * 900);
+      state.student = {
+        fullName: document.getElementById('infoName').value.trim(),
+        className: cls,
+        studentId: autoId
+      };
+      state.currentIndex = 0;
+      state.currentPoints = 0;
+      state.elapsedSeconds = 0;
+      state.answers = {};
+      resetCurrentQuestion();
+      state.screen = 'quiz';
+
+      if (state.timerInterval) clearInterval(state.timerInterval);
+      state.timerInterval = setInterval(() => {
+        state.elapsedSeconds++;
+      }, 1000);
+
+      startQuestionTimer();
+      render();
+    }
+
+    function resetCurrentQuestion() {
+      state.selectedMCQ = null;
+      state.tfSelections = { a: null, b: null, c: null, d: null };
+      state.shortInput = '';
+      state.isSubmitted = false;
+      state.feedback = null;
+    }
+
+    function getQuestionDuration(q) {
+      if (q.type === 'mcq') {
+        if (q.level === 'nhan_biet') return 20;
+        if (q.level === 'thong_hieu') return 25;
+        return 30; // van_dung
+      }
+      if (q.type === 'true_false') return 50;
+      return 40; // short_answer
+    }
+
+    function startQuestionTimer() {
+      const q = QUESTIONS[state.currentIndex];
+      state.questionTimer = getQuestionDuration(q);
+      if (state.qTimerInterval) clearInterval(state.qTimerInterval);
+      state.qTimerInterval = setInterval(() => {
+        if (state.questionTimer > 0) {
+          state.questionTimer--;
+          render();
+        }
+      }, 1000);
+    }
+
+    function selectMCQ(key) {
+      if (state.isSubmitted) return;
+      AudioEngine.click();
+      state.selectedMCQ = key;
+      render();
+    }
+
+    function setTF(stmtId, val) {
+      if (state.isSubmitted) return;
+      AudioEngine.click();
+      state.tfSelections[stmtId] = val;
+      render();
+    }
+
+    function canSubmit() {
+      const q = QUESTIONS[state.currentIndex];
+      if (state.isSubmitted) return false;
+      if (q.type === 'mcq') return state.selectedMCQ !== null;
+      if (q.type === 'true_false') return ['a','b','c','d'].every(k => state.tfSelections[k] !== null);
+      if (q.type === 'short_answer') return (document.getElementById('shortAnsInput')?.value || state.shortInput).trim().length > 0;
+      return false;
+    }
+
+    function submitCurrentAnswer() {
+      if (!canSubmit()) return;
+      const q = QUESTIONS[state.currentIndex];
+      let earned = 0;
+      let right = false;
+
+      if (q.type === 'mcq') {
+        right = state.selectedMCQ === q.correctAnswer;
+        earned = right ? 0.25 : 0;
+      } else if (q.type === 'true_false') {
+        let count = 0;
+        q.statements.forEach(st => {
+          if (state.tfSelections[st.id] === st.correctAnswer) count++;
+        });
+        earned = Math.round(count * 0.25 * 100) / 100;
+        right = count === 4;
+      } else if (q.type === 'short_answer') {
+        const val = (document.getElementById('shortAnsInput')?.value || state.shortInput).trim();
+        state.shortInput = val;
+        right = checkShortAnswerMatch(val, q);
+        earned = right ? 0.25 : 0;
+      }
+
+      if (right || earned > 0) AudioEngine.correct();
+      else AudioEngine.incorrect();
+
+      state.currentPoints = Math.round((state.currentPoints + earned) * 100) / 100;
+      state.feedback = { isFullyCorrect: right, earned };
+      state.isSubmitted = true;
+      state.answers[q.id] = { earned, isFullyCorrect: right };
+      render();
+    }
+
+    function nextQuestion() {
+      AudioEngine.click();
+      if (state.currentIndex < QUESTIONS.length - 1) {
+        state.currentIndex++;
+        resetCurrentQuestion();
+        startQuestionTimer();
+        render();
+      } else {
+        if (state.timerInterval) clearInterval(state.timerInterval);
+        if (state.qTimerInterval) clearInterval(state.qTimerInterval);
+        const finalScore = Math.min(10, Math.round(state.currentPoints * 100) / 100);
+        saveAttempt({
+          id: 'att_' + Date.now(),
+          student: state.student,
+          completedAt: new Date().toISOString(),
+          totalDurationSeconds: state.elapsedSeconds,
+          totalScore: finalScore,
+          answers: state.answers
+        });
+        AudioEngine.fanfare();
+        state.screen = 'result';
+        render();
+      }
+    }
+
+    function exportCSV() {
+      const sorted = [...state.attempts].sort((a,b) => b.totalScore !== a.totalScore ? b.totalScore - a.totalScore : a.totalDurationSeconds - b.totalDurationSeconds);
+      const headers = ['Hạng', 'Họ và tên', 'Lớp', 'Mã số HS', 'Điểm (/10)', 'Thời gian'];
+      const rows = sorted.map((a, i) => [
+        i + 1,
+        '"' + a.student.fullName + '"',
+        '"' + a.student.className + '"',
+        '"' + a.student.studentId + '"',
+        a.totalScore.toFixed(2),
+        '"' + formatTime(a.totalDurationSeconds) + '"'
+      ].join(','));
+      const content = '\uFEFF' + [headers.join(','), ...rows].join('\r\n');
+      const blob = new Blob([content], { type: 'text/csv;charset=utf-8;' });
+      const url = URL.createObjectURL(blob);
+      const a = document.createElement('a');
+      a.href = url;
+      a.download = 'Ket_qua_KHTN8_Dau_truong_tri_thuc.csv';
+      a.click();
+    }
+
+    function exportClassReport() {
+      const classMap = {};
+      state.attempts.forEach(a => {
+        const c = a.student.className || 'Chưa rõ';
+        if (!classMap[c]) classMap[c] = [];
+        classMap[c].push(a);
+      });
+      const headers = ['Lớp', 'Sĩ số', 'Điểm TB', 'Cao nhất', 'Thấp nhất'];
+      const rows = Object.keys(classMap).sort().map(cls => {
+        const list = classMap[cls];
+        const scores = list.map(x => x.totalScore);
+        const avg = (scores.reduce((a,b)=>a+b, 0) / list.length).toFixed(2);
+        const max = Math.max(...scores).toFixed(2);
+        const min = Math.min(...scores).toFixed(2);
+        return [cls, list.length, avg, max, min].join(',');
+      });
+      const content = '\uFEFF' + ['BÁO CÁO KẾT QUẢ KHTN 8 THEO LỚP', headers.join(','), ...rows].join('\r\n');
+      const blob = new Blob([content], { type: 'text/csv;charset=utf-8;' });
+      const url = URL.createObjectURL(blob);
+      const a = document.createElement('a');
+      a.href = url;
+      a.download = 'Bao_cao_theo_lop_KHTN8.csv';
+      a.click();
+    }
+
+    function clearData() {
+      if (confirm('Xác nhận xóa toàn bộ danh sách kết quả học sinh?')) {
+        state.attempts = [];
+        localStorage.removeItem('khtn8_quiz_attempts_v1');
+        render();
+      }
+    }
+
+    render();
+  </script>
+</body>
+</html>
