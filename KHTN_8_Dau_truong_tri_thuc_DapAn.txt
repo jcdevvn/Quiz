@@ -1,0 +1,288 @@
+﻿================================================================
+   ĐẤU TRƯỜNG TRI THỨC - CHINH PHỤC CƠ THỂ NGƯỜI (KHTN 8)
+   Tổng: 31 câu | 40 ý chấm x 0,25đ = 10 điểm
+   Dạng 1: Trắc nghiệm (18 câu) | Dạng 2: Đúng/Sai (3 câu x 4 ý) | Dạng 3: Trả lời ngắn (10 câu)
+================================================================
+
+### DẠNG 1: TRẮC NGHIỆM 4 LỰA CHỌN ###
+
+[Bài 30: Khái quát về cơ thể người]
+
+Câu 1. Cơ thể người được bao bọc bởi lớp da và phân chia thành các phần chính nào sau đây?
+    [x] A. Đầu, thân và các chi (tay, chân)
+    [ ] B. Đầu, cổ, ngực và bụng
+    [ ] C. Đầu, ngực, bụng và tứ chi
+    [ ] D. Hộp sọ, lồng ngực và khoang bụng
+    >> ĐÁP ÁN: A. Đầu, thân và các chi (tay, chân)
+    >> Giải thích: Toàn bộ cơ thể người được bao bọc bởi da, chia làm 3 phần: đầu, thân (gồm lồng ngực và khoang bụng ngăn cách bởi cơ hoành) và các chi (tay, chân).
+----------------------------------------------------------------
+Câu 2. Trong cơ thể người, cơ quan nào đóng vai trò là ranh giới ngăn cách giữa khoang ngực và khoang bụng?
+    [ ] A. Phổi
+    [x] B. Cơ hoành
+    [ ] C. Dạ dày
+    [ ] D. Cơ liên sườn
+    >> ĐÁP ÁN: B. Cơ hoành
+    >> Giải thích: Cơ hoành là một tấm cơ vân dẹt ngăn cách khoang ngực ở phía trên và khoang bụng ở phía dưới, đồng thời đóng vai trò quan trọng trong việc hô hấp hít vào và thở ra.
+----------------------------------------------------------------
+Câu 3. Hệ cơ quan nào có chức năng vận chuyển chất dinh dưỡng, khí oxygen đến từng tế bào và mang các chất thải, khí carbon dioxide đến cơ quan bài tiết?
+    [ ] A. Hệ hô hấp
+    [ ] B. Hệ tiêu hóa
+    [x] C. Hệ tuần hoàn
+    [ ] D. Hệ nội tiết
+    >> ĐÁP ÁN: C. Hệ tuần hoàn
+    >> Giải thích: Hệ tuần hoàn gồm tim và hệ mạch máu (động mạch, mao mạch, tĩnh mạch), có chức năng lưu chuyển máu đi khắp cơ thể để vận chuyển oxy, dinh dưỡng và thu gom chất thải chuyển đến cơ quan bài tiết.
+----------------------------------------------------------------
+Câu 4. Khi học sinh chạy nhanh trong giờ Thể dục, nhịp tim đập nhanh hơn, hơi thở dồn dập và mồ hôi toát ra nhiều. Hiện tượng này chứng minh điều gì?
+    [ ] A. Các hệ cơ quan hoạt động hoàn toàn biệt lập, không liên quan đến nhau
+    [ ] B. Cơ thể đang rơi vào trạng thái cạn kiệt năng lượng nguy hiểm
+    [x] C. Các hệ cơ quan phối hợp hoạt động nhịp nhàng dưới sự điều hòa của hệ thần kinh và thể dịch
+    [ ] D. Chỉ có hệ vận động và hệ tuần hoàn hoạt động trong khi các hệ khác tạm ngưng
+    >> ĐÁP ÁN: C. Các hệ cơ quan phối hợp hoạt động nhịp nhàng dưới sự điều hòa của hệ thần kinh và thể dịch
+    >> Giải thích: Khi vận động mạnh, hệ vận động đòi hỏi nhiều năng lượng, kích thích hệ tuần hoàn bơm máu nhanh hơn, hệ hô hấp lấy nhiều O2 hơn và tuyến mồ hôi tỏa nhiệt. Tất cả phối hợp thống nhất dưới sự điều hòa của hệ thần kinh và thể dịch.
+----------------------------------------------------------------
+[Bài 31: Hệ vận động ở người]
+
+Câu 5. Ở người trưởng thành khỏe mạnh, bộ xương gồm khoảng bao nhiêu chiếc xương?
+    [ ] A. 106 chiếc xương
+    [x] B. 206 chiếc xương
+    [ ] C. 306 chiếc xương
+    [ ] D. 406 chiếc xương
+    >> ĐÁP ÁN: B. 206 chiếc xương
+    >> Giải thích: Bộ xương người trưởng thành gồm khoảng 206 xương với nhiều kích thước và hình dạng khác nhau, chia làm 3 phần: xương đầu, xương thân và xương chi.
+----------------------------------------------------------------
+Câu 6. Khớp giữa các mảnh xương hộp sọ thuộc loại khớp xương nào sau đây?
+    [x] A. Khớp bất động
+    [ ] B. Khớp bán động
+    [ ] C. Khớp động
+    [ ] D. Khớp sụn dẻo
+    >> ĐÁP ÁN: A. Khớp bất động
+    >> Giải thích: Khớp giữa các mảnh xương sọ là khớp bất động, các mép xương có các đường răng cưa gắn kết chặt chẽ cố định với nhau để tạo thành hộp sọ vững chắc bảo vệ não bộ.
+----------------------------------------------------------------
+Câu 7. Hiện tượng cơ bị co cứng đột ngột, không thể chủ động duỗi ra được, gây đau buốt dữ dội khi vận động hoặc bơi lội được gọi là gì?
+    [ ] A. Trật khớp xương
+    [x] B. Chuột rút (vọp bẻ)
+    [ ] C. Bong gân
+    [ ] D. Viêm khớp cấp tính
+    >> ĐÁP ÁN: B. Chuột rút (vọp bẻ)
+    >> Giải thích: Chuột rút là tình trạng cơ co thắt đột ngột, ngoài ý muốn và không giãn ra được. Nguyên nhân thường do cơ bị mỏi, cơ thể thiếu nước và chất điện giải hoặc không khởi động kỹ trước khi vận động mạnh.
+----------------------------------------------------------------
+Câu 8. Để phòng tránh tật cong vẹo cột sống trong quá trình học tập, hành động nào sau đây là ĐÚNG ĐẮN?
+    [ ] A. Tựa sát ngực vào mép bàn và cúi gập cổ gần mặt bàn khi viết
+    [ ] B. Luôn đeo cặp sách lệch hẳn sang một bên vai yêu thích
+    [x] C. Ngồi học ngay ngắn, giữ lưng thẳng tự nhiên, hai bàn chân đặt bằng phẳng trên sàn
+    [ ] D. Ngồi nghiêng một bên và vắt chéo chân liên tục trong suốt buổi học
+    >> ĐÁP ÁN: C. Ngồi học ngay ngắn, giữ lưng thẳng tự nhiên, hai bàn chân đặt bằng phẳng trên sàn
+    >> Giải thích: Tư thế ngồi học chuẩn là lưng thẳng tự nhiên, không tì ngực vào cạnh bàn, khoảng cách mắt đến sách vở 25-30 cm, hai bàn chân đặt bằng phẳng trên sàn và đeo balo đều cả hai vai để tải trọng cân bằng.
+----------------------------------------------------------------
+Câu 9. Khi sơ cứu ban đầu cho một người bạn không may bị gãy xương cẳng tay, nguyên tắc quan trọng hàng đầu là gì?
+    [ ] A. Nắn bóp mạnh và kéo thẳng cẳng tay nạn nhân ngay tại chỗ
+    [x] B. Dùng nẹp cố định tạm thời vị trí gãy bất động trước khi đưa đến cơ sở y tế
+    [ ] C. Chườm túi nóng thật nóng lên vị trí gãy để kích thích lưu thông máu
+    [ ] D. Cho nạn nhân tập cử động bàn tay xem xương có còn cảm giác không
+    >> ĐÁP ÁN: B. Dùng nẹp cố định tạm thời vị trí gãy bất động trước khi đưa đến cơ sở y tế
+    >> Giải thích: Nguyên tắc sơ cứu gãy xương là bất động đoạn xương gãy bằng nẹp chuyên dụng hoặc nẹp tạm thời (thước gỗ, thanh tre) để tránh đầu xương gãy đâm rách mạch máu, cơ và dây thần kinh xung quanh; tuyệt đối không nắn bóp.
+----------------------------------------------------------------
+[Bài 32: Dinh dưỡng và tiêu hóa ở người]
+
+Câu 10. Trong nước bọt ở khoang miệng người có chứa loại enzyme tiêu hóa nào sau đây?
+    [ ] A. Enzyme Pepsin
+    [x] B. Enzyme Amylase
+    [ ] C. Enzyme Lipase
+    [ ] D. Enzyme Trypsin
+    >> ĐÁP ÁN: B. Enzyme Amylase
+    >> Giải thích: Nước bọt chứa enzyme amylase xúc tác quá trình thủy phân một phần tinh bột chín thành đường maltose có vị ngọt nhẹ.
+----------------------------------------------------------------
+Câu 11. Bộ phận nào trong ống tiêu hóa là nơi diễn ra sự hấp thụ chất dinh dưỡng chủ yếu nhất của cơ thể?
+    [ ] A. Dạ dày
+    [ ] B. Ruột già
+    [x] C. Ruột non
+    [ ] D. Thực quản
+    >> ĐÁP ÁN: C. Ruột non
+    >> Giải thích: Ruột non dài và có bề mặt hấp thu cực lớn nhờ các nếp gấp, hàng triệu lông ruột và vi nhung mao cùng mạng mao mạch máu, mao mạch bạch huyết dày đặc, hấp thụ đến hơn 90% chất dinh dưỡng.
+----------------------------------------------------------------
+Câu 12. Dịch mật do tế bào gan sản sinh và được dự trữ ở túi mật có vai trò chính nào sau đây trong tiêu hóa thức ăn?
+    [ ] A. Phân giải protein thành các phân tử amino acid nhỏ
+    [x] B. Nhũ tương hóa chất béo (lipid) thành các giọt nhỏ để enzyme lipase dễ phân giải
+    [ ] C. Biến đổi tinh bột sống thành đường đơn glucose
+    [ ] D. Tiết acid clohydric (HCl) để diệt vi khuẩn trong thức ăn
+    >> ĐÁP ÁN: B. Nhũ tương hóa chất béo (lipid) thành các giọt nhỏ để enzyme lipase dễ phân giải
+    >> Giải thích: Dịch mật không chứa enzyme tiêu hóa nhưng có các muối mật giúp nhũ tương hóa lipid (chất béo) thành các hạt mỡ nhỏ li ti, tạo điều kiện thuận lợi cho enzyme lipase của dịch tụy và dịch ruột phân giải.
+----------------------------------------------------------------
+Câu 13. Nguyên nhân phổ biến hàng đầu gây ra bệnh viêm loét dạ dày – tá tràng ở người là gì?
+    [x] A. Nhiễm vi khuẩn Helicobacter pylori (Hp), thói quen ăn uống thất thường và căng thẳng kéo dài
+    [ ] B. Uống đủ 2 lít nước lọc mỗi ngày và ngủ đúng 8 tiếng
+    [ ] C. Ăn nhiều rau củ quả tươi và tập thể dục buổi sáng
+    [ ] D. Chế độ ăn nhạt và giảm lượng đường tinh luyện
+    >> ĐÁP ÁN: A. Nhiễm vi khuẩn Helicobacter pylori (Hp), thói quen ăn uống thất thường và căng thẳng kéo dài
+    >> Giải thích: Vi khuẩn Hp (Helicobacter pylori), thói quen ăn uống bỏ bữa, thức khuya, stress căng thẳng tinh thần kéo dài, lạm dụng chất cay nóng hoặc thuốc giảm đau là những nguyên nhân chính gây tổn thương niêm mạc dạ dày.
+----------------------------------------------------------------
+Câu 14. Học sinh A thường xuyên bỏ ăn rau xanh, chỉ ăn đồ chiên rán nhiều dầu mỡ và uống rất ít nước lọc. Tình trạng tiêu hóa học sinh A có nguy cơ cao gặp phải là gì?
+    [x] A. Táo bón
+    [ ] B. Tiêu chảy cấp tính
+    [ ] C. Trào ngược dạ dày do dư kiềm
+    [ ] D. Hạ đường huyết nghiêm trọng
+    >> ĐÁP ÁN: A. Táo bón
+    >> Giải thích: Rau xanh và trái cây cung cấp lượng chất xơ dồi dào giúp tăng thể tích phân và kích thích nhu động ruột già. Khi thiếu chất xơ và uống ít nước, phân trở nên khô cứng khó tống xuất ra ngoài, gây nên bệnh táo bón.
+----------------------------------------------------------------
+[Bài 33: Máu và hệ tuần hoàn ở người]
+
+Câu 15. Loại tế bào máu nào ở người trưởng thành không có nhân, có hình đĩa lõm hai mặt và chứa huyết sắc tố hemoglobin?
+    [ ] A. Bạch cầu trung tính
+    [x] B. Hồng cầu
+    [ ] C. Tiểu cầu
+    [ ] D. Tế bào lympho
+    >> ĐÁP ÁN: B. Hồng cầu
+    >> Giải thích: Hồng cầu trưởng thành không có nhân, hình đĩa lõm hai mặt giúp tối ưu diện tích tiếp xúc để trao đổi khí, chứa hemoglobin có khả năng kết hợp thuận nghịch với O2 và CO2 để vận chuyển khí.
+----------------------------------------------------------------
+Câu 16. Khi mạch máu bị rách gây chảy máu, thành phần nào của máu đóng vai trò chủ chốt trong cơ chế đông máu để bịt kín vết thương?
+    [ ] A. Hồng cầu
+    [ ] B. Bạch cầu mono
+    [x] C. Tiểu cầu
+    [ ] D. Huyết tương đơn thuần
+    >> ĐÁP ÁN: C. Tiểu cầu
+    >> Giải thích: Tiểu cầu vỡ ra giải phóng enzyme kết hợp với chất trong huyết tương biến fibrinogen thành mạng lưới sợi fibrin, giữ chặt các tế bào máu tạo thành khối máu đông bít kín miệng vết thương để cầm máu.
+----------------------------------------------------------------
+Câu 17. Trong hệ nhóm máu ABO, người có nhóm máu O sở hữu đặc điểm kháng nguyên và kháng thể như thế nào?
+    [x] A. Màng hồng cầu không có cả kháng nguyên A và B; huyết tương có cả kháng thể α và β
+    [ ] B. Màng hồng cầu có cả kháng nguyên A và B; huyết tương không có kháng thể nào
+    [ ] C. Màng hồng cầu có kháng nguyên A; huyết tương có kháng thể β
+    [ ] D. Màng hồng cầu có kháng nguyên B; huyết tương có kháng thể α
+    >> ĐÁP ÁN: A. Màng hồng cầu không có cả kháng nguyên A và B; huyết tương có cả kháng thể α và β
+    >> Giải thích: Nhóm máu O có màng hồng cầu không mang kháng nguyên A hay B, trong huyết tương chứa cả hai loại kháng thể α và β. Nhờ không mang kháng nguyên A, B nên hồng cầu máu O không bị ngưng kết khi truyền cho các nhóm máu khác theo nguyên tắc an toàn.
+----------------------------------------------------------------
+Câu 18. Một người trưởng thành khi nghỉ ngơi có chỉ số huyết áp đo được là 155/95 mmHg. Nhận định nào sau đây là CHÍNH XÁC về tình trạng sức khỏe của người này?
+    [ ] A. Huyết áp hoàn toàn bình thường, khỏe mạnh lý tưởng
+    [ ] B. Người này bị huyết áp thấp cần ăn mặn hơn ngay lập tức
+    [x] C. Người này có dấu hiệu tăng huyết áp (cao huyết áp) và cần được bác sĩ thăm khám
+    [ ] D. Đây là tình trạng thiếu máu cục bộ bẩm sinh không đáng lo ngại
+    >> ĐÁP ÁN: C. Người này có dấu hiệu tăng huyết áp (cao huyết áp) và cần được bác sĩ thăm khám
+    >> Giải thích: Chỉ số huyết áp bình thường ở người trưởng thành là từ 90/60 mmHg đến 120/80 mmHg. Chỉ số từ 140/90 mmHg trở lên được chẩn đoán là tăng huyết áp (cao huyết áp), tiềm ẩn nguy cơ đột quỵ và tai biến tim mạch.
+----------------------------------------------------------------
+
+### DẠNG 2: ĐÚNG / SAI ###
+
+[Bài 30: Khái quát về cơ thể người]
+
+Câu 19. Khi tìm hiểu về cấu tạo và hoạt động khái quát của cơ thể người, các nhận định sau đây là Đúng hay Sai?
+    a) Màng tế bào, tế bào chất và nhân là ba thành phần cơ bản cấu tạo nên tế bào cơ thể người.
+       => ĐÚNG | Mọi tế bào trong cơ thể người đều có cấu trúc cơ bản gồm màng sinh chất, tế bào chất (chứa các bào quan) và nhân chứa vật chất di truyền DNA.
+    b) Các cơ quan nằm trong cùng một khoang cơ thể thì nhất thiết phải thuộc cùng một hệ cơ quan duy nhất.
+       => SAI | Trong một khoang cơ thể có thể chứa nhiều cơ quan của các hệ khác nhau (ví dụ khoang bụng chứa dạ dày, ruột, gan, thận...).
+    c) Hệ bài tiết nước tiểu gồm các cơ quan: hai quả thận, hai ống dẫn nước tiểu, bóng đái (bàng quang) và ống đái.
+       => ĐÚNG | Đây là cấu tạo hoàn chỉnh của hệ bài tiết nước tiểu theo SGK KHTN 8.
+    d) Hệ thần kinh và hệ nội tiết cùng phối hợp điều hòa, phối hợp nhịp nhàng hoạt động của các cơ quan trong cơ thể.
+       => ĐÚNG | Cơ thể được điều hòa bởi cơ chế thần kinh và cơ chế thể dịch/nội tiết.
+    >> ĐÁP ÁN: a-Đ  b-S  c-Đ  d-Đ
+----------------------------------------------------------------
+[Bài 31 & Bài 32: Hệ vận động và Tiêu hóa]
+
+Câu 20. Khi nghiên cứu về hoạt động của hệ vận động và hệ tiêu hóa ở người, mỗi nhận định sau đây là Đúng hay Sai?
+    a) Xương có tính mềm dẻo là nhờ chất khoáng vô cơ, còn có tính bền chắc vững vàng là nhờ chất hữu cơ (cốt giao).
+       => SAI | Ngược lại: chất cốt giao hữu cơ tạo tính đàn hồi mềm dẻo, muối khoáng canxi vô cơ tạo độ cứng chắc.
+    b) Tắm nắng hợp lí vào buổi sáng sớm giúp tiền chất dưới da chuyển hóa thành vitamin D, thúc đẩy hấp thụ canxi giúp xương chắc khỏe.
+       => ĐÚNG | Tia tử ngoại buổi sáng chuyển hóa tiền vitamin D, giúp ruột non hấp thụ canxi phòng loãng xương, còi xương.
+    c) Tại thực quản của người, thức ăn được tiêu hóa hóa học mạnh mẽ nhờ các enzyme tiết ra từ thành thực quản.
+       => SAI | Thực quản không tiết enzyme tiêu hóa, chỉ vận chuyển cơ học viên thức ăn từ hầu xuống dạ dày.
+    d) Chế độ ăn uống cân bằng 4 nhóm chất dinh dưỡng và thói quen ăn chín, uống sôi là giải pháp quan trọng bảo vệ hệ tiêu hóa.
+       => ĐÚNG | Ăn đủ 4 nhóm chất kết hợp an toàn thực phẩm bảo vệ cơ quan tiêu hóa.
+    >> ĐÁP ÁN: a-S  b-Đ  c-S  d-Đ
+----------------------------------------------------------------
+[Bài 33: Máu và hệ tuần hoàn ở người]
+
+Câu 21. Về thành phần của máu và cấu tạo hệ tuần hoàn ở người, mỗi nhận định sau đây là Đúng hay Sai?
+    a) Huyết tương chiếm khoảng 55% thể tích máu, trong đó nước chiếm khoảng 90% thể tích của huyết tương.
+       => ĐÚNG | Máu gồm huyết tương (~55%) và tế bào máu (~45%). Huyết tương chứa ~90% là nước.
+    b) Động mạch là mạch máu có lòng rộng nhất, thành rất mỏng và luôn có van một chiều chạy suốt chiều dài mạch.
+       => SAI | Tĩnh mạch mới có thành mỏng, lòng rộng và có van một chiều ở chi dưới; động mạch thành dày nhiều sợi đàn hồi và không có van dọc thân.
+    c) Tiêm vaccine kích thích bạch cầu sản sinh kháng thể và tạo tế bào ghi nhớ, giúp cơ thể miễn dịch chủ động với mầm bệnh.
+       => ĐÚNG | Vaccine kích hoạt cơ chế sinh kháng thể phòng bệnh chủ động.
+    d) Ở người trưởng thành khỏe mạnh, nhịp tim sinh lý lúc nghỉ ngơi bình thường dao động trong khoảng 60 đến 80 nhịp/phút.
+       => ĐÚNG | Nhịp tim trung bình sinh lý lúc nghỉ ngơi là khoảng 60 - 80 lần/phút.
+    >> ĐÁP ÁN: a-Đ  b-S  c-Đ  d-Đ
+----------------------------------------------------------------
+
+### DẠNG 3: TRẢ LỜI NGẮN ###
+
+[Bài 30: Khái quát về cơ thể người]
+
+Câu 22. Đơn vị cấu trúc và chức năng cơ bản nhất của cơ thể con người là gì?
+    >> ĐÁP ÁN: Tế bào
+    >> Gợi ý: Mọi cơ quan đều được cấu tạo từ các đơn vị sống nhỏ này.
+    >> Giải thích: Tế bào là đơn vị cấu trúc và chức năng cơ bản nhất của mọi cơ thể sống.
+----------------------------------------------------------------
+Câu 23. Lồng ngực của cơ thể người được giới hạn bởi các xương sườn, cột sống ở phía sau và xương nào ở chính giữa phía trước ngực?
+    >> ĐÁP ÁN: Xương ức
+    >> Gợi ý: Xương dẹt phía trước ngực liên kết với các sụn sườn.
+    >> Giải thích: Xương ức nằm ở phía trước ngực, khớp với các đôi xương sườn và cột sống tạo thành lồng ngực.
+----------------------------------------------------------------
+[Bài 31: Hệ vận động ở người]
+
+Câu 24. Xương dài nhất và chịu lực nặng nhất trong toàn bộ hệ xương của con người là xương gì?
+    >> ĐÁP ÁN: Xương đùi
+    >> Gợi ý: Nằm ở chi dưới nối khớp háng với khớp gối.
+    >> Giải thích: Xương đùi là xương dài nhất và chịu lực lớn nhất trong cơ thể người.
+----------------------------------------------------------------
+Câu 25. Bệnh ở hệ vận động xảy ra do mật độ chất khoáng (đặc biệt là canxi) trong xương bị suy giảm, khiến xương trở nên xốp, giòn và rất dễ gãy được gọi là bệnh gì?
+    >> ĐÁP ÁN: Loãng xương
+    >> Gợi ý: Bệnh xốp xương do thiếu hụt canxi.
+    >> Giải thích: Bệnh loãng xương làm suy giảm mật độ khoáng chất của xương khiến xương giòn xốp và dễ gãy.
+----------------------------------------------------------------
+[Bài 32: Dinh dưỡng và tiêu hóa ở người]
+
+Câu 26. Tuyến tiêu hóa lớn nhất trong cơ thể người, có chức năng tiết dịch mật, dự trữ glycogen và khử các chất độc hại là cơ quan nào?
+    >> ĐÁP ÁN: Gan
+    >> Gợi ý: Nằm ở hạ sườn phải trong khoang bụng.
+    >> Giải thích: Gan là tuyến tiêu hóa lớn nhất (1,2 - 1,5 kg), tiết dịch mật và khử độc.
+----------------------------------------------------------------
+Câu 27. Đoạn đầu tiên của ruột non, có hình chữ C uốn quanh đầu tụy và là nơi tiếp nhận dịch tụy và dịch mật đổ vào có tên gọi là gì?
+    >> ĐÁP ÁN: Tá tràng
+    >> Gợi ý: Đoạn ruột non nối trực tiếp với môn vị dạ dày.
+    >> Giải thích: Tá tràng dài khoảng 25 cm, hình chữ C, là nơi nhận dịch mật và dịch tụy.
+----------------------------------------------------------------
+Câu 28. Thành phần dinh dưỡng nào có nhiều trong rau xanh và vỏ hoa quả, không cung cấp calo nhưng đóng vai trò như 'chiếc chổi quét' làm sạch đường tiêu hóa và chống táo bón?
+    >> ĐÁP ÁN: Chất xơ
+    >> Gợi ý: Thành phần có nhiều trong rau xanh chống táo bón.
+    >> Giải thích: Chất xơ kích thích nhu động ruột già, giữ nước làm mềm phân và phòng ngừa táo bón.
+----------------------------------------------------------------
+[Bài 33: Máu và hệ tuần hoàn ở người]
+
+Câu 29. Trái tim của con người được cấu tạo gồm bao nhiêu ngăn (buồng tim)? (Hãy trả lời bằng một chữ số)
+    >> ĐÁP ÁN: 4
+    >> Gợi ý: Gồm 2 tâm nhĩ ở trên và 2 tâm thất ở dưới.
+    >> Giải thích: Tim người gồm 4 ngăn: tâm nhĩ phải, tâm nhĩ trái, tâm thất phải, tâm thất trái.
+----------------------------------------------------------------
+Câu 30. Mạch máu lớn nhất cơ thể xuất phát từ tâm thất trái, có nhiệm vụ dẫn dòng máu giàu oxygen đi nuôi tất cả các cơ quan trong vòng tuần hoàn lớn là mạch gì?
+    >> ĐÁP ÁN: Động mạch chủ
+    >> Gợi ý: Cung động mạch chính dẫn máu đỏ tươi đi khắp cơ thể.
+    >> Giải thích: Động mạch chủ là động mạch lớn nhất, xuất phát từ tâm thất trái đưa máu giàu oxy đi nuôi cơ thể.
+----------------------------------------------------------------
+Câu 31. Khả năng cơ thể tự nhận biết và tiêu diệt các vi sinh vật gây bệnh hoặc các chất lạ xâm nhập nhằm bảo vệ tính toàn vẹn của cơ thể được gọi là gì?
+    >> ĐÁP ÁN: Miễn dịch
+    >> Gợi ý: Khả năng tự phòng vệ sinh học chống lại mầm bệnh.
+    >> Giải thích: Miễn dịch là khả năng nhận biết và tiêu diệt tác nhân gây bệnh của cơ thể nhờ bạch cầu và kháng thể.
+----------------------------------------------------------------
+
+BẢNG ĐÁP ÁN NHANH
+
+Trắc nghiệm:
+ 1-A    2-B    3-C    4-C    5-B    6-A    7-B    8-C    9-B
+10-B   11-C   12-B   13-A   14-A   15-B   16-C   17-A   18-C
+
+Đúng/Sai:
+Câu 19: a-Đ  b-S  c-Đ  d-Đ
+Câu 20: a-S  b-Đ  c-S  d-Đ
+Câu 21: a-Đ  b-S  c-Đ  d-Đ
+
+Trả lời ngắn:
+Câu 22: Tế bào
+Câu 23: Xương ức
+Câu 24: Xương đùi
+Câu 25: Loãng xương
+Câu 26: Gan
+Câu 27: Tá tràng
+Câu 28: Chất xơ
+Câu 29: 4
+Câu 30: Động mạch chủ
+Câu 31: Miễn dịch
+
+(Trả lời ngắn không phân biệt hoa/thường và dấu.)
